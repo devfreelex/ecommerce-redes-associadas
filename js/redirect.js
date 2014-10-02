@@ -75,3 +75,27 @@ $(document).ready(function(){
     });
 });
 /*******************************************************/
+
+/*******************************************************/
+// author: Henrique Colaco Cruz               02/10/2014
+// Search Behavior
+/*******************************************************/
+$(document).ready(function(){
+    $('.header > .header-content > .box-search > button').click(function(){
+        var searchText = $(this).prev().val();
+        
+        if(searchText == ''){
+            var pathName = window.location.pathname;
+            var arrayUrl = pathName.split('/');
+            var theUrl = '/'+arrayUrl[1]+'/'+arrayUrl[2]+'/'+'busca-sem-resultado.html';
+            window.location.href=theUrl;
+        }else{
+            var pathName = window.location.pathname;
+            var arrayUrl = pathName.split('/');
+            var theUrl = '/'+arrayUrl[1]+'/'+arrayUrl[2]+'/'+'busca-com-resultado.html';
+            window.location.href=theUrl;
+        }
+    });
+});
+/*******************************************************/
+
