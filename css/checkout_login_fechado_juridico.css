@@ -1,0 +1,201 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02/05/2014, 16:35:30
+    Author     : hcruz
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic);
+
+body {line-height: 1; font-family: 'Lato', sans-serif; background:#fff;}
+
+.wrap-content{padding-bottom: 20px; float: left;}
+
+.wrap-content .row{width:997px; clear:both; border:1px #ededed solid; background:#fafafa;}
+.wrap-content  .right{float:right;}
+.wrap-content  .left{float:left;}
+.valid{border:1px solid #0BBC2D !important}
+.input-validation-error{border:1px solid #A20A00 !important}
+
+/*TITULOS*/
+.type-title{float: left;border-bottom: 1px solid #bebebe;margin-top: 25px;width: 100%;}
+.type-title h1{font-size: 23px;font-weight: 300;text-transform: uppercase;color: #4865a9;padding-bottom: 12px;border-bottom: 3px solid #bebebe;
+float: left; padding-right: 20px; position: relative;top: 2px;}
+.type-title > h1 > span + span {color: #d3ae75;}
+
+/*TOP*/
+.wrap-top{width:100%; height:111px; float: left; position:relative; left:0; right:0; top:0; margin:0; padding:0;border-bottom: solid 1px #f1f1f1;}
+
+/*LOGO E PASSOS DE COMPRA*/
+.middle{ width:980px; margin:0 auto;}
+.middle > .wrap-logo{float:left; width:242px; height:49px; margin-top:27px;}
+.middle > .wrap-logo > a, .middle > .wrap-logo > img{outline: none; border:0; text-decoration:none;}
+
+/*PASSOS DE COMPRA*/
+.wrap-steps{float:right; width:700px; height:75px; margin-top:27px; left: 60px; position: relative;}
+.wrap-steps > ul {background: url("../../img/carrinho/line-steps.png");  background-repeat:no-repeat;  background-position:center 16px;  display: block; float: right; list-style: none outside none;  margin: 0;  padding: 0;}
+.wrap-steps > ul > li {color: #445887; display: block; float: left; font-size: 15px; font-variant: small-caps; font-weight: 400; height: 20px; line-height: 55px; padding: 25px 0; position: relative; text-align: center; width: 215px;}
+.wrap-steps > ul > li > i {display: block; float: left; height: 35px; left: 50%; margin-left: -20px; position: absolute; text-indent: -15000px; top: -1px; width: 35px; background: none repeat scroll 0 0 #333333;}
+.wrap-steps > ul > li.stp-a > i{background:url(../../img/checkout/sprite.png); background-repeat:no-repeat; background-position:-205px -741px;}
+.wrap-steps > ul > li.stp-b > i{background:url(../../img/checkout/sprite.png); background-repeat:no-repeat; background-position:-586px -1284px;}
+.wrap-steps > ul > li.stp-c > i{background:url(../../img/checkout/sprite.png); background-repeat:no-repeat; background-position:-205px -741px;}
+.wrap-steps > ul > li.active{font-weight:400;}
+
+.delivery-set{position: absolute; z-index: 600; width: 454px; height: 88px; top: 555px; background: url(../../img/carrinho/sprite.png); background-repeat:no-repeat; background-position: -12px -1236px;}
+.delivery-set > .left{width: 177px; height: 75px; float: left; margin-top: 10px; padding-left: 50px;}
+.delivery-set > .left > input[type=radio]{position: absolute; top: 40px; left: 25px;}
+.delivery-set > .left > p{color: #777777; font-size: 12px; margin: 10px 0px 3px 0px;}
+.delivery-set > .left > p > span{color: #4865a9; text-transform: uppercase; font-size: 12px; font-weight: 600;}
+.delivery-set > .left > span{font-size: 11px; color: #777777;}
+.delivery-set > .left > span > span{color: #4865a9; font-size: 11px;}
+.delivery-set > .right{width: 176px; height: 75px; margin-top: 10px; border-left: solid 1px #e4e4e4; padding-left: 50px;}
+.delivery-set > .right > input[type=radio]{position: absolute; top: 40px; left: 253px;}
+.delivery-set > .right > p{color: #777777; font-size: 12px; margin: 10px 0px 3px 0px;}
+.delivery-set > .right > p > span{color: #4865a9; text-transform: uppercase; font-size: 12px; font-weight: 600;}
+.delivery-set > .right > span{font-size: 11px; color: #777777;}
+.delivery-set > .right > span > span{color: #4865a9; font-size: 11px;}
+
+/* Content */
+.coll-left{float: left; width: 322px;}
+.coll-center{float: left; margin-left: 15px;}
+.coll-right{float: left; margin-left: 15px;}
+/*All-box*/
+.box{width: 320px; background: #fff; border: solid 1px #F2F2F2;}
+.box > .title{width: 100%; height: 39px; background: #fafafa; float: left; border-bottom: solid 3px #4964A9;}
+.box > .title > p{color: #4865a9; text-transform: uppercase; font-size: 14px; margin: 12px 0px 0px 10px;}
+.box > .box-content{float: left; width: 100%;}
+/*Box-1*/
+.box.b1{width: 100%; padding-bottom: 20px; margin-top: 27px; float: left;}
+.box.b1 > .box-content > .wrap-have-account{width: 299px; height: 31px; background: url("../../img/checkout/bg-border.png") #f7f7f7; background-repeat: repeat-x; background-position: 0px 100%; margin: 6px 0px 0px 11px; border-bottom: solid 1px #e8e8e8; float: left;}
+.box.b1 > .box-content > .wrap-have-account > p{color: #666; font-size: 14px; margin: 8px 0px 0px 10px; float: left;}
+.box.b1 > .box-content > .wrap-have-account > button{width: 85px; height: 17px; background: #f97028; color: #fff; margin: 7px 0px 0px 10px; border-bottom: solid 2px #e66514; float: left; text-transform: uppercase; font-size: 10px;}
+.box.b1 > .box-content > .wrap-set-form{width: 100%; float: left; margin-top: 20px; margin-bottom: 25px;}
+.box.b1 > .box-content > .wrap-set-form > input{float: left; margin-left: 15px; margin-right: 3px;}
+.box.b1 > .box-content > .wrap-set-form > p{font-size: 13px; color: #666; float: left;}
+.box.b1 > .box-content > div > form > .input-box{float: left; margin: 5px 0px 0px 15px; height: 45px;}
+.box.b1 > .box-content > div > form > .input-box.force-width{width: 120px;}
+.box.b1 > .box-content > div > form > .input-box > p{font-size: 12px; color: #666; float: left; width: 100%;}
+.box.b1 > .box-content > div > form > .input-box > input{height: 24px; float: left; border: solid 1px #e1e1e1; margin-top: 5px; color: #666; font-size: 11px; padding-left: 5px;}
+.box.b1 > .box-content > div > form > .input-box > input.tel-a{width: 20px; float: left;}
+.box.b1 > .box-content > div > form > .input-box > input.tel-b{width: 75px; margin-left: 3px; float: left;}
+.box.b1 > .box-content > div > form > .input-box > select{width: 138px; height: 24px; border: solid 1px #e1e1e1; margin-top: 5px; color: #666; font-size: 11px; float: left;}
+.box.b1 > .box-content > div > form > .offer-alert{width: 100%; float: left; margin-top: 10px;}
+.box.b1 > .box-content > div > form > .offer-alert.force-margin{margin-top: 25px;}
+.box.b1 > .box-content > div > form > .offer-alert > input{float: left; margin: 0px 10px 0px 15px;}
+.box.b1 > .box-content > div > form > .offer-alert > p{float: left; font-size: 12px; color: #666;}
+/*Box-2*/
+.box.b2{width: 100%; padding-bottom: 20px; border-top: none; float: left;}
+.box.b2 > .box-content > form > .input-box{width: 138px; float: left; margin: 5px 0px 0px 15px; height: 45px;}
+.box.b2 > .box-content > form > .input-box > p{font-size: 12px; color: #666; float: left; width: 100%;}
+.box.b2 > .box-content > form > .input-box > input{width: 136px; height: 24px; float: left; border: solid 1px #e1e1e1; margin-top: 5px; color: #666; font-size: 11px; padding-left: 5px;}
+.box.b2 > .box-content > form > .input-box.cep{margin-top: 15px; width: 300px;}
+.box.b2 > .box-content > form > .input-box.cep > input{width: 110px;}
+.box.b2 > .box-content > form > .input-box.cep > p > a{margin-left: 25px; text-decoration: underline; font-size: 10px; color: #E39777;}
+.box.b2 > .box-content > form > .input-box.adress{width: 224px;}
+.box.b2 > .box-content > form > .input-box.adress > input{width: 220px;}
+.box.b2 > .box-content > form > .input-box.number{width: 60px;}
+.box.b2 > .box-content > form > .input-box.number > input{width: 50px;}
+.box.b2 > .box-content > form > .input-box.ref{width: 280px;}
+.box.b2 > .box-content > form > .input-box.ref > input{width: 290px;}
+/*Box-3*/
+.box.b3{width: 100%; padding-bottom: 20px; border-top: none; float: left;}
+.box.b3 > .box-content > .delivery{float: left; margin: 20px 0px 0px 16px; width: 100%;}
+.box.b3 > .box-content > .delivery > input{float: left; margin: 4px 5px 0px 0px;}
+.box.b3 > .box-content > .delivery > span{text-transform: uppercase; color: #747474; font-size: 12px;}
+.box.b3 > .box-content > .delivery > p{color: #747474; font-size: 15px; margin: 5px 0px 0px 18px;}
+/*Box-4*/
+.box.b4{float: left; margin-top: 27px; padding-bottom: 162px;}
+.box.b4 > .box-content > ul{width: 288px; border: solid 1px #F7F7F7; margin: 20px 0px 0px 16px; float: left;}
+.box.b4 > .box-content > ul > li{border-bottom: solid 1px #f7f7f7; float: left; width: 100%; display: block; }
+.box.b4 > .box-content > ul > li:hover{background: #4965a9;}
+.box.b4 > .box-content > ul > li:hover > p{color: #fff;}
+.box.b4 > .box-content > ul > li > i{display: block; width: 40px; height: 27px; background: url(../../img/checkout/payment-sprite.png); background-repeat: no-repeat; float: left; margin: 8px 0px 0px 16px;}
+.box.b4 > .box-content > ul > li > i.a{background-position: -0px -0px;}
+.box.b4 > .box-content > ul > li > i.b{background-position: -0px -32px;}
+.box.b4 > .box-content > ul > li > i.c{background-position: -0px -63px;}
+.box.b4 > .box-content > ul > li > i.d{background-position: -0px -95px;}
+.box.b4 > .box-content > ul > li > i.e{background-position: -0px -127px;}
+.box.b4 > .box-content > ul > li > i.f{background-position: -0px -160px;}
+.box.b4 > .box-content > ul > li > i.g{background-position: -0px -63px;}
+    .box.b4 > .box-content > ul > li:hover > i.a{background-position: -46px -0px;}
+    .box.b4 > .box-content > ul > li:hover > i.b{background-position: -46px -32px;}
+    .box.b4 > .box-content > ul > li:hover > i.c{background-position: -46px -63px;}
+    .box.b4 > .box-content > ul > li:hover > i.d{background-position: -46px -95px;}
+    .box.b4 > .box-content > ul > li:hover > i.e{background-position: -46px -127px;}
+    .box.b4 > .box-content > ul > li:hover > i.f{background-position: -50px -160px;}
+    .box.b4 > .box-content > ul > li:hover > i.g{background-position: -46px -63px;}
+.box.b4 > .box-content > ul > li > p{color: #666; font-size: 12px; margin: 10px 0px 10px 11px; line-height: 18px; float: left; height: 20px;}
+.box.b4 > .box-content > ul > li > form > ul{padding-bottom: 20px; display: block; width: 100%; background: #fff; float: left; border-top: solid 1px #F7F7F7;}
+.box.b4 > .box-content > ul > li > form > ul > li{display: block; width: 100%; float: left;}
+.box.b4 > .box-content > ul > li > form > ul > li.deposito-bancario{padding-top: 15px;}
+.box.b4 > .box-content > ul > li > form > ul > li.deposito-bancario > input{float: left; margin: 5px 10px 0px 10px;}
+.box.b4 > .box-content > ul > li > form > ul > li.deposito-bancario > img{float: left;}
+.box.b4 > .box-content > ul > li > form > ul > li.deposito-bancario > p{color: #fff; margin-left: 10px; font-size: 11px; line-height: 22px; padding-left: 27px; float: left; width: 157px; height: 24px; background: url("../../img/checkout/sprite.png"); background-repeat: no-repeat; background-position: -211px -1334px;}
+.box.b4 > .box-content > ul > li > form > ul > li.deposito-bancario > span{width: 165px; float: left; font-size: 12px; color: #666; margin: 5px 0 0 91px;}
+.box.b4 > .box-content > ul > li > form > ul > li.cartao-credito{padding-top: 15px;}
+.box.b4 > .box-content > ul > li > form > ul > li.cartao-credito > .card-box{width: 40px; height: 50px; margin-left: 15px; float: left;}
+.box.b4 > .box-content > ul > li > form > ul > li.cartao-credito > .card-box > img{float: left;}
+.box.b4 > .box-content > ul > li > form > ul > li.cartao-credito > .card-box > input{margin: 7px 0px 0px 14px; float: left;}
+.box.b4 > .box-content > ul > li > form > ul > li.cartao-credito > .input-box{position: relative; float: left; margin: 10px 0px 0px 15px;}
+.box.b4 > .box-content > ul > li > form > ul > li.cartao-credito > .input-box > p{color: #757575; font-size: 12px; margin-bottom: 7px;}
+.box.b4 > .box-content > ul > li > form > ul > li.cartao-credito > .input-box > input{color: #666; font-size: 11px; padding-left: 5px;}
+.box.b4 > .box-content > ul > li > form > ul > li.cartao-credito > .input-box.a1 > select{width: 137px; height: 23px; border: solid 1px #e3e3e3; padding-top: 3px; font-size: 11px; color: #333333;}
+.box.b4 > .box-content > ul > li > form > ul > li.cartao-credito > .input-box.a2 > input{width: 252px; height: 23px; border: solid 1px #e3e3e3;}
+.box.b4 > .box-content > ul > li > form > ul > li.cartao-credito > .input-box.a3 > input{width: 252px; height: 23px; border: solid 1px #e3e3e3;}
+.box.b4 > .box-content > ul > li > form > ul > li.cartao-credito > .input-box.a4 > input{float: left; width: 120px; height: 23px; border: solid 1px #e3e3e3;}
+.box.b4 > .box-content > ul > li > form > ul > li.cartao-credito > .input-box.a4 > select{margin-left: 4px; width: 129px; height: 25px; border: solid 1px #e3e3e3; padding-top: 3px; font-size: 11px; color: #a5a5a5;}
+.box.b4 > .box-content > ul > li > form > ul > li.cartao-credito > .input-box.a5 > input{width: 59px; height: 23px; border: solid 1px #e3e3e3; float: left;}
+.box.b4 > .box-content > ul > li > form > ul > li.cartao-credito > .input-box.a5 > a{float: left; color: #4865a9; font-size: 12px; text-decoration: underline; margin: 5px 0px 0px 5px;}
+.box.b4 > .box-content > ul > li > form > ul > li.boleto-bancario{padding-top: 15px;}
+.box.b4 > .box-content > ul > li > form > ul > li.boleto-bancario > input{float: left; margin: 5px 10px 0px 10px;}
+.box.b4 > .box-content > ul > li > form > ul > li.boleto-bancario > img{float: left;}
+.box.b4 > .box-content > ul > li > form > ul > li.boleto-bancario > p{color: #fff; margin-left: 10px; font-size: 11px; line-height: 22px; padding-left: 27px; float: left; width: 157px; height: 24px; background: url("../../img/checkout/sprite.png"); background-repeat: no-repeat; background-position: -211px -1361px;}
+.box.b4 > .box-content > ul > li > form > ul > li.boleto-bancario > p.value{padding: 0; margin-left: 10px; float: left; font-size: 12px; background: #fff; color: #4865a9; width: 75px; margin-top: 30px;}
+.box.b4 > .box-content > ul > li > form > ul > li.boleto-bancario > input.value{margin: 29px 0px 0px 0px; float: left; width: 180px; height: 23px; border: solid 1px #e3e3e3; color: #666; font-size: 11px; padding-left: 5px;}
+.box.b4 > .box-content > ul > li > form > ul > li.boleto-bancario > span{width: 165px; float: left; font-size: 12px; color: #666; margin: 5px 0 0 91px;}
+.box.b4 > .box-content > p{float: left; width: 250px; line-height: 15px; margin: 20px 0px 0px 16px; color: #666; font-size: 12px;}
+.box.b4 > .box-content > textarea{width: 286px; height: 106px; border: solid 1px #dbdbdb; margin: 10px 0px 0px 16px;}
+.box.b4 > .box-content > ul > li > form > ul > li.cheque{padding-top: 15px;}
+.box.b4 > .box-content > ul > li > form > ul > li.cheque > p{width: 100%; float: left; margin: 0px 0px 0px 10px; color: #666; font-size: 12px;}
+.box.b4 > .box-content > ul > li > form > ul > li.cheque > .wrap-radio{float: left; width: 100%;}
+.box.b4 > .box-content > ul > li > form > ul > li.cheque > .wrap-radio > .radio-box{float: left; margin: 10px 0px 0px 10px;}
+.box.b4 > .box-content > ul > li > form > ul > li.cheque > .wrap-radio > .radio-box > input{margin: 0px 7px 0px 0px;}
+.box.b4 > .box-content > ul > li > form > ul > li.cheque > .wrap-radio > .radio-box > span{font-size: 12px; color: #666;}
+.box.b4 > .box-content > ul > li > form > ul > li.cheque > .wrap-input{float: left; width: 100%;}
+.box.b4 > .box-content > ul > li > form > ul > li.cheque > .wrap-input > .input-box{float: left; margin-top: 13px;}
+.box.b4 > .box-content > ul > li > form > ul > li.cheque > .wrap-input > .input-box > span{float: left; font-size: 12px; color: #666; width: 100px; text-align: right; margin-top: 4px;}
+.box.b4 > .box-content > ul > li > form > ul > li.cheque > .wrap-input > .input-box > input{float: left; width: 141px; height: 21px; border: solid 1px #e3e3e3; margin-left: 19px; font-size: 12px; color: #666;}
+.box.b4 > .box-content > ul > li > form > ul > li.cheque > .wrap-alert{width: 100%; height: 76px; background: #f6f6f6; float: left; margin-top: 10px;}
+.box.b4 > .box-content > ul > li > form > ul > li.cheque > .wrap-alert > p{color: #A7A7A7; font-size: 12px; width: 250px; margin: 15px 0px 0px 20px; line-height: 15px;}
+.box.b4 > .box-content > ul > li > form > ul > li.dinheiro{padding-top: 15px;}
+.box.b4 > .box-content > ul > li > form > ul > li.dinheiro > .wrap-input{float: left; width: 100%;}
+.box.b4 > .box-content > ul > li > form > ul > li.dinheiro > .wrap-input > .input-box{float: left; margin-top: 5px;}
+.box.b4 > .box-content > ul > li > form > ul > li.dinheiro > .wrap-input > .input-box > span{float: left; font-size: 12px; color: #666; margin-left: 20px; margin-top: 4px;}
+.box.b4 > .box-content > ul > li > form > ul > li.dinheiro > .wrap-input > .input-box > input{float: left; width: 170px; height: 21px; border: solid 1px #e3e3e3; margin-left: 15px; font-size: 12px; color: #666;}
+.box.b4 > .box-content > ul > li > form > ul > li.dinheiro > .wrap-alert{width: 100%; height: 90px; background: #f6f6f6; float: left; margin-top: 10px;}
+.box.b4 > .box-content > ul > li > form > ul > li.dinheiro > .wrap-alert > p{color: #A7A7A7; font-size: 12px; width: 250px; margin: 15px 0px 0px 20px; line-height: 15px;}
+/*Box-5*/
+.box.b5{height: 599px; margin-top: 27px; float: left;}
+.box.b5 > .box-content > .finalize{width: 100%; float: left; margin-top: 13px;}
+.box.b5 > .box-content > .finalize > button{cursor: pointer; width: 224px; height: 48px; background: url("../../img/checkout/sprite.png"); background-repeat: no-repeat; background-position: -11px -1055px; margin-left: 77px; float: left;}
+.box.b5 > .box-content > .box-car{width: 288px; padding: 20px 0px 20px 0px; border: solid 1px #f6f6f6; float: left; margin: 14px 0px 0px 11px;}
+.box.b5 > .box-content > .box-car > .top-table{width: 256px; margin-left: 16px; text-transform: uppercase; font-size: 12px; color: #333; border-bottom: solid 1px #e3e3e3; float: left; padding-bottom: 10px;}
+.box.b5 > .box-content > .box-car > .top-table > .tt1{width: 149px; float: left;}
+.box.b5 > .box-content > .box-car > .top-table > .tt2{width: 27px; float: left;}
+.box.b5 > .box-content > .box-car > .top-table > .tt3{width: 80px; float: left; text-align: right;}
+.box.b5 > .box-content > .box-car > .product-box{float: left; width: 100%; height: 105px;}
+.box.b5 > .box-content > .box-car > .product-box > .product{margin-left: 16px; height: 100%; width: 135px; float: left;}
+.box.b5 > .box-content > .box-car > .product-box > .product > p{font-size: 12px; color: #666; float: left; margin-top: 10px;}
+.box.b5 > .box-content > .box-car > .product-box > .quantity{height: 100%; width: 60px; float: left; text-align: center; color: #666; font-size: 14px; line-height: 100px;}
+.box.b5 > .box-content > .box-car > .product-box > .price{height: 100%; width: 77px; float: left; text-align: center; color: #666; font-size: 14px; line-height: 100px;}
+.box.b5 > .box-content > .box-car > .payment-info{width: 258px; margin-left: 15px; float: left; border-top: solid 1px #d2d2d2; padding-top: 10px;}
+.box.b5 > .box-content > .box-car > .payment-info > .side-a{width: 158px; float: left; float: left; font-size: 12px; color: #666; text-align: right; margin-top: 8px;}
+.box.b5 > .box-content > .box-car > .payment-info > .side-b{width: 100px; float: left; text-align: right; font-size: 12px; color: #666; margin-top: 8px;}
+.box.b5 > .box-content > .box-car > .payment-info > .side-a.total{font-size: 14px; font-weight: bold; color: #4965a9;}
+.box.b5 > .box-content > .box-car > .payment-info > .side-b.total{font-size: 14px; font-weight: bold; color: #4965a9;}
+.box.b5 > .box-content > .accept-terms{width: 100%; float: left; margin-top: 10px;}
+.box.b5 > .box-content > .accept-terms > input{float: left; margin-left: 155px;}
+.box.b5 > .box-content > .accept-terms > p{float: left; font-size: 12px; color: #666; margin-left: 10px;}

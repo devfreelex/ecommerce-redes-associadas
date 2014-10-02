@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Carrinho</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../css/master.css" rel="stylesheet" type="text/css"/>
+        <link href="../css/carrinho.css" rel="stylesheet" type="text/css"/>
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="http://code.jquery.com/jquery-migrate-1.2.1.js"></script> 
+        <script type="text/javascript" src="../js/master.js"></script>
+        <script type="text/javascript" src="../js/carrinho.js"></script>
+        <script type="text/javascript" src="../js/redirect.js"></script>
+    </head>
+    <body>
+        <div class="secure-header">
+            <div class="top-line-bar"></div>
+            <div class="top-content">
+                <div class="center">
+                    <img src="../img/master/logo.png">
+                    <div class="top-secure-nav">
+                        <div class="square-a"></div>
+                        <div class="square-b"></div>
+                        <div class="square-c"></div>
+                        <span class="text-a">Resumo de compras</span>
+                        <span class="text-b">Cadastro e pagamento</span>
+                        <span class="text-c">Confirmação</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrap-content">
+            <div class="wrap-title">
+                <div class="type-title">
+                    <p class="font-medium">Minha Cesta</p>
+                </div>
+                <button></button>
+            </div>
+            <ul class="top-table">
+                <li>Produtos</li>
+                <li>Presente</li>
+                <li>Quantidade</li>
+                <li>Valor Unitário</li>
+                <li>Valor Total</li>
+            </ul>
+            <ul class="product-list">
+                <li>
+                    <i></i>
+                    <div class="product">
+                        <a href="#">
+                            <img src="../img/carrinho/pdt-thumb.png">
+                            <p><span>Pepsamar Ltd Caixa 230 Mg</span><br>Marca: Pepsamar | Código: P00117SFS00</p>
+                        </a>
+                    </div>
+                    <div class="present">
+                        <form><input type="checkbox" name="present" class="active"><i></i></form><i></i>
+                    </div>
+                    <div class="quantity">
+                        <i class="arrow-up"></i><input type="text"><i class="arrow-down"></i>
+                    </div>
+                    <div class="unit-value">
+                        R$ 150,00
+                    </div>
+                    <div class="total-value">
+                        R$ 12000,00
+                    </div>
+                    <button class="del-btn">
+                        <i></i>
+                    </button>
+                </li><li>
+                    <i></i>
+                    <div class="product">
+                        <a href="#">
+                            <img src="../img/carrinho/pdt-thumb.png">
+                            <p><span>Pepsamar Ltd Caixa 230 Mg</span><br>Marca: Pepsamar | Código: P00117SFS00</p>
+                        </a>
+                    </div>
+                    <div class="present">
+                        <form><input type="checkbox" name="present" class="active"><i></i></form><i></i>
+                    </div>
+                    <div class="quantity">
+                        <i class="arrow-up"></i><input type="text"><i class="arrow-down"></i>
+                    </div>
+                    <div class="unit-value">
+                        R$ 150,00
+                    </div>
+                    <div class="total-value">
+                        R$ 12000,00
+                    </div>
+                    <button class="del-btn">
+                        <i></i>
+                    </button>
+                </li>
+                <li>
+                    <i></i>
+                    <div class="product">
+                        <a href="#">
+                            <img src="../img/carrinho/pdt-thumb.png">
+                            <p><span>Pepsamar Ltd Caixa 230 Mg</span><br>Marca: Pepsamar | Código: P00117SFS00</p>
+                        </a>
+                    </div>
+                    <div class="present">
+                        <form><input type="checkbox" name="present" class="active"><i></i></form><i></i>
+                    </div>
+                    <div class="quantity">
+                        <i class="arrow-up"></i><input type="text"><i class="arrow-down"></i>
+                    </div>
+                    <div class="unit-value">
+                        R$ 150,00
+                    </div>
+                    <div class="total-value">
+                        R$ 12000,00
+                    </div>
+                    <button class="del-btn">
+                        <i></i>
+                    </button>
+                </li>
+            </ul>
+            <div class="line-subtotal">
+                <div class="right">
+                    <span>Subtotal</span>
+                    <span>R$ 1.2000,00</span>
+                </div>
+            </div>
+            <div class="line-desc">
+                <span>Cupom de desconto</span>
+                <div class="input-box"><div class="placeholder">Insira o Cupom</div><input type="text"></div>
+                <button>Calcular o desconto</button>
+                <div class="alert">Desconto adicionado ao valor total!</div>
+                <div class="right">
+                    <span>Desconto</span>
+                    <span>-R$ 98,00</span>
+                </div>
+            </div>
+            <div class="line-frete">
+                <span>Calcule o valor do frete</span>
+                <div class="input-box"><div class="placeholder">Insira seu Cep</div><input type="text"></div>
+                <button>Calcular o frete</button>
+                <a href="#">Não sei meu cep</a>
+                <div class="wrap-delivery">
+                    <i></i>
+                    <div class="delivery-type">
+                        <form><i></i><input type="checkbox"></form>
+                        <span>Frete Grátis: <span>R$0,00</span></span>
+                        <span><span>Prazo de entrega:</span> 6 dias<br>(após liberação do pedido)</span>
+                    </div>
+                    <div class="delivery-type">
+                        <form><i></i><input type="checkbox"></form>
+                        <span>Frete Grátis: <span>R$0,00</span></span>
+                        <span><span>Prazo de entrega:</span> 6 dias<br>(após liberação do pedido)</span>
+                    </div>
+                </div>
+                <div class="right">
+                    <span>Entrega</span>
+                    <span>R$ 28,99</span>
+                </div>
+            </div>
+            <div class="line-present">
+                <div class="right">
+                    <span>Presente</span>
+                    <span>R$ 2,00</span>
+                </div>
+            </div>
+            <div class="line-total">
+                <div class="right">
+                    <span>Valor Total</span>
+                    <span>R$ 1.2085,00</span>
+                </div>
+            </div>
+            <div class="wrap-buttons">
+                <button class="clean-button">Limpar Carrinho</button>
+                <button class="continue-button">Continuar Comprando</button>
+                <button class="end-button"></button>
+            </div>
+        </div>    
+        <div class="secure-footer">
+            <div class="wrap-footer-content">
+                <div class="center">
+                    <div class="wrap-all-box">
+                        <div class="content-box width260">
+                            <span>Formas de pagamento</span>
+                            <div class="cards">
+                                <img src="../img/master/card-1.png">
+                                <img src="../img/master/card-2.png">
+                                <img src="../img/master/card-3.png">
+                                <img src="../img/master/card-4.png">
+                                <img src="../img/master/card-5.png">
+                                <img src="../img/master/card-6.png">
+                                <img src="../img/master/card-7.png">
+                                <img src="../img/master/card-8.png">
+                            </div>
+                        </div>
+                        <div class="content-box">
+                            <span>Segurança</span>
+                            <img src="../img/master/siteforte.png" alt="siteforte">
+                            <img src="../img/master/siteblindado.png" alt="siteblindado">
+                            <img src="../img/master/internetsegura.png" alt="internetsegura">
+                        </div>
+                        <div class="content-box no-border width230">
+                            <span>Credibilidade</span>
+                            <img src="../img/master/ebit.png" alt="siteforte" class="force-float no-margin">
+                            <img src="../img/master/buscape.png" alt="siteblindado" class="force-margin force-float">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wrap-bottom-text">
+                <p class="font-medium">Copyright - 2014 Farmácias Associadas todos os direitos reservados todas as imagens vinculadas ao site são de propriedade da mesma.Todos os preços e condições deste site são válidos apenas para compras no site e não se aplicam as Lojas Físicas. Destacamos que os preços previstos no site prevalecem aos demais anunciados em outros meios de comunicação e sites de buscas. Farmácias Associadas comércio eletrônico, com sede na R. Acurui, 237 – Tatupé – São Paulo – CEP: 03355-000 Inscrita no CNPJ / MF sob o nº 14.314.050/0001-58, IE 206.159.582.118  www.farmacias associadas.com.br</p>
+            </div>
+            <div class="line-bottom">
+                <div class="center">
+                    <img src="../img/master/vannon.png" alt="vannon">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

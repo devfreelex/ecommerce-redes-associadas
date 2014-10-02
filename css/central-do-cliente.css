@@ -1,0 +1,399 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02/05/2014, 16:35:30
+    Author     : hcruz
+*/
+@import url(http://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic);
+
+/*TITULOS*/
+.type-title {
+  border-bottom: 5px solid #01B6AD;
+  display: inline-block;
+  margin-bottom:20px;
+  width: 743px;
+}
+.type-title.type-prod{
+  border-bottom: 5px solid #01b6ad;
+  display: block;
+  float: left;
+  margin-left: 23px;
+
+}
+.box-content {
+  margin-left: 20px;
+}
+.type-title > h2 {
+  background: none repeat scroll 0 0 #01b6ad;
+  color: #fff;
+  float: left;
+  font-size: 22px;
+  font-weight: 600;
+  height: 40px;
+  line-height: 50px;
+  margin: 0;
+  padding-bottom: 0;
+  padding-left: 17px;
+  padding-right: 17px;
+}
+
+.type-title > h1{
+    padding-left:17px; 
+    padding-right:17px; 
+    padding-bottom:0; 
+    margin:0; 
+    float:left; 
+    font-size: 22px; 
+    font-weight:600; 
+    color:#fff; 
+    line-height:50px;   
+    background:#01B6AD;
+    height:40px;
+}
+
+.type-title> h1 > i{
+    display:block;
+    float:left;
+    width:36px;
+    height:40px;
+}
+.type-title img {
+  display: block;
+  margin-left: 8px;
+  margin-top:8px;
+}
+
+.force-width{
+	width: 1000px;
+}
+
+/*BREADCRUMBS*/
+.wrap-breadcrumbs{top: 25px;height:30px; position: relative; margin:0 auto 30px auto;}
+.wrap-breadcrumbs > ul{list-style:none; padding:0; margin:0; position: relative;}
+.wrap-breadcrumbs > ul > li{display:block; float: left; text-transform:uppercase; font-size:12px; color:#01B6AD; font-weight:600;}
+.wrap-breadcrumbs > ul > li > span{padding:0 3px; font-weight:500;}
+.wrap-breadcrumbs > ul > li > a{text-decoration:none; padding:0; margin:0; color:#666666; text-tranform:uppercase; font-weight:500;}
+.wrap-breadcrumbs > ul > li > a > span{padding:0 5px 0 3px; font-weight:500;}
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02/05/2014, 16:35:30
+    Author     : rrocha
+*/
+
+.ResetClear{clear:both; padding:0; margin:0;}
+
+body {line-height: 1; font-family: 'Lato', sans-serif !important; background:#fff;}
+
+/*Input Sizes*/
+.input-size1{width: 385px;}
+.input-size2{width: 240px;}
+.input-size3{width: 245px;}
+.input-size4{width: 105px;}
+.input-size5{width: 193px;}
+.input-size6{width: 27px;}
+.input-size7{width: 41px;}
+.input-size8{width: 70px;}
+.input-size9{width: 136px;}
+.input-size10{width: 197px;}
+/*FIM MINIFRAME*/
+
+/*RESET CLEAR*/
+.clear{clear:both;}
+
+/*CONTENT*/
+.wrap-content{width:1000px;  float:left; position:relative; left:50%; margin-left:-500px; margin-top:20px; margin-bottom:65px; }
+
+/*BREADCRUMB*/
+.breadcrumb{width:100%; height:20px; margin:10px 0 30px 0;}
+.breadcrumb > ul > li{display:block; float:left;}
+.breadcrumb > ul > li > a{display:block; float:left;  color:#333; font-size:13px; text-transform:uppercase;}
+.breadcrumb > ul > li > i{display:block; float:left; margin:0 5px;  font-size:13px; color:#333;}
+.breadcrumb > ul > li + li + li > a{color:#EE2E24;}
+
+/*TITULOS*/
+.wrap-top{width:100%; padding:0; float:left;}
+.category-title{float:left; width:100%; margin-top:15px; border-bottom:7px #01B6AD solid;}
+.category-title > h4{padding:0 17px 5px 10px;  height:45px; margin:0; float:left; font-size:18px; font-weight:600; text-transform:none; line-height:50px; color:#fff; background:#01B6AD;}
+.category-title > h4 > span{font-weight:600;}
+
+/*WELCOME*/
+.wrap-welcome{margin-top: 90px; line-height: 20px; border-bottom: solid 1px #dadada; height: 45px;}
+.wrap-welcome > p{color: #666666; font-size: 12px;}
+.wrap-welcome > p > span{font-size: 14px;}
+.wrap-welcome > p > span > span{color: #385398; font-size: 14px;}
+
+/*Sidebar*/
+.coll-left{width: 260px; margin-top: 15px; position: relative; float: left;  background: url("../img/central-do-cliente/bg-bar.png"); background-repeat: repeat-y; background-position: 100%;}
+.coll-left > ul{float: left;}
+.coll-left > ul > li{font-weight: 300;width: 250px; display: block; float: left; background: #f2f2f2; margin-bottom: 5px; color: #5A5A5A; font-size: 14px; text-transform: uppercase; cursor:pointer;}
+.coll-left > ul > li:hover{background: #01B6AD; color: #fff;}
+.coll-left > ul > li:hover > p{color:#fff;}
+.coll-left > ul > li:hover > i{background: url("../img/central-do-cliente/sprite.png"); background-repeat: no-repeat; background-position: -358px -734px;}
+.coll-left > ul > li > p{float: left; margin-left: 10px;  line-height: 50px; color:#5a5a5a;}
+.coll-left > ul > li > p > span{font-weight:600; }
+.coll-left > ul > li > i.row{margin: 0; background: url("../img/central-do-cliente/arrow-down.png") #C3C3C3; background-repeat: no-repeat; background-position: center center; width: 25px; height: 50px; display: block; float: right;}
+.coll-left > ul > li:hover > i.row{background: url("../img/central-do-cliente/arrow-down.png") #017D7D; background-position: center center; background-repeat:no-repeat;}
+.coll-left > ul > li.active > i.row{background: url("../img/central-do-cliente/arrow-down.png") #017D7D; background-position: center center; background-repeat:no-repeat;}
+.coll-left > ul > li.active > p{color:#fff;}
+.coll-left > ul > li.active{background: #01B6AD; color: #fff;}
+.coll-left > ul > li.active > .right-bar{height:50px; background: #017D7D; margin: 0;}
+.coll-left > ul > li.active > i{background: url("../img/central-do-cliente/icons-list.png"); background-repeat: no-repeat; background-position: 0 0;}
+.coll-left > .bar{width: 5px; left: 250px; z-index: -10; position: absolute; margin-left: 5px; height: 577px; background: #E1E5EE; float: right;}
+.coll-left > ul > li > .right-bar {background: #dfe6ee; height: 50px; margin: 0; padding: 0; position: absolute; right: 0;  width: 5px;}
+.coll-left > ul > li:hover > .right-bar{background: #017D7D; margin: 0;}
+.coll-left > ul > li > ul > li > ul{line-height: 0px; border-top: 1px solid #d5d7e4;}
+.coll-left > ul > li > ul > li{line-height: 0px; border-top:1px #f6f6f6 solid; border-left:1px #f6f6f6 solid; border-right:1px #f6f6f6 solid; background: #fff;}
+.coll-left > ul > li > ul{width: 250px; float: left; display:none;}
+.coll-left > ul > li > ul > li:hover > a{color: #01B6AD;}
+.coll-left > ul > li > ul > li.active > a{color: #01B6AD;}
+.coll-left > ul > li > ul > li > a {font-weight: 400; color: #5a5a5a; font-size: 11px; height: 30px; line-height: 35px; margin: 0; padding: 0; padding-left: 20px; text-transform: uppercase;}
+.coll-left > ul > li > ul > li > a > i{background: url("../img/central-do-cliente/icons-list.png"); background-repeat: no-repeat; background-position: 0 0; display: block; float: left; height: 10px; margin: 13px -15px 0 5px; width: 10px;}
+.coll-left > ul > li > ul > li > ul > li > a{font-weight: 400; color: #666666; font-size: 11px; height: 30px; line-height: 35px; margin: 0; padding: 0; padding-left: 20px; text-transform: uppercase;}
+
+.coll-left > ul > li > i.a{background: url("../img/central-do-cliente/icons-ped.png"); background-repeat: no-repeat; background-position: 0 0; width: 32px; height: 31px; float: left; margin: 10px 0px 0px 10px;}
+.coll-left > ul > li.active > i.a{background: url("../img/central-do-cliente/icons-ped.png"); background-repeat: no-repeat; background-position: -33px 0; width: 32px; height: 31px; float: left; margin: 10px 0px 0px 10px;}
+.coll-left > ul > li:hover > i.a{background: url("../img/central-do-cliente/icons-ped.png"); background-repeat: no-repeat; background-position: -33px 0; width: 32px; height: 31px; float: left; margin: 10px 0px 0px 10px;}
+
+
+.coll-left > ul > li > i.b{background: url("../img/central-do-cliente/icons-cad.png"); background-repeat: no-repeat; background-position: 0 0; width: 32px; height: 31px; float: left; margin: 10px 0px 0px 10px;}
+.coll-left > ul > li.active > i.b{background: url("../img/central-do-cliente/icons-cad.png"); background-repeat: no-repeat; background-position: -31px 0; width: 32px; height: 31px; float: left; margin: 10px 0px 0px 10px;}
+.coll-left > ul > li:hover > i.b{background: url("../img/central-do-cliente/icons-cad.png"); background-repeat: no-repeat; background-position: -31px 0; width: 32px; height: 31px; float: left; margin: 10px 0px 0px 10px;}
+
+
+.coll-left > ul > li > i.c{background: url("../img/central-do-cliente/icons-list.png"); background-repeat: no-repeat; background-position: -31px 0; width: 32px; height: 31px; float: left; margin: 10px 0px 0px 10px;}
+.coll-left > ul > li.active > i.c{background: url("../img/central-do-cliente/icons-list.png"); background-repeat: no-repeat; background-position: 0 0; width: 30px; height: 31px; float: left; margin: 10px 2px 0px 10px;}
+.coll-left > ul > li:hover > i.c{background: url("../img/central-do-cliente/icons-list.png"); background-repeat: no-repeat; background-position: 0 0; width: 30px; height: 31px; float: left; margin: 10px 2px 0px 10px;}
+
+
+
+.coll-right {float: left; margin: 15px 0 0 15px; width: 725px;}
+
+.wrap-data{border: solid 1px #f1f1f1; float: left; padding-bottom: 10px; background: #FAFAFA; width: 100%; margin:2px 0;}
+.wrap-data .title{width: 100%; height: 52px; border-bottom: solid 1px #E3E3E3; float: left; }
+.title > p{text-transform: uppercase; color: #4865A9; font-size: 15px; position: relative; top: 20px; left: 0; float: left;}
+.title > span{float: left;  margin: 5px 0 0 450px; font-size: 10px; color: #666; text-transform: uppercase;}
+.title > span > p{float: left; line-height: 13px;}
+.title > span > input{float: left; margin-left: 15px; margin-right: 3px;}
+.title.force-margin{margin-top: 20px; margin-left:15px;}
+
+/*Change Data*/
+.wrap-data > .box-center > .wrap-input{margin: 25px 0 0 15px; float: left; position: relative; text-transform:uppercase; }
+.wrap-data > .box-center > .wrap-input > p{text-transform: uppercase; font-size: 11px; color: #5e5e5e; font-weight:400;}
+.wrap-data > .box-center > .wrap-input > p > a{margin-left: 10px; font-size: 10px; color: #666; text-transform: none; text-decoration: underline;}
+.wrap-data > .box-center > .wrap-input > input{line-height: 30px; color: #666; padding-left: 5px; font-size: 11px; height: 23px; border: solid 1px #f6f6f6; margin-top: 7px; font-weight:300; text-transform:uppercase;}
+.wrap-data > .box-center > .wrap-input > input.valid{border: solid 1px #8DC236;}
+.wrap-data > .box-center > .wrap-input > input.input-validation-error{border: solid 1px #A20903;}
+.wrap-data > .box-center > .bottom{height: 60px; width: 100%; float: left; margin-top: 30px;}
+.wrap-data > .box-center > .bottom > p{color: #666; font-size: 12px; float: left; margin: 14px 0px 0px 298px; font-weight:300;}
+.wrap-data > .box-center > .bottom > p > a{color: #EB180F; font-size: 12px; text-decoration: underline;}
+.wrap-data > .box-center > .bottom > button{cursor: pointer; margin-left: 20px; font-size: 12px; text-transform: uppercase; width: 186px; height: 47px; color: #fff; float: left; text-indent:-15000px; border-bottom: solid 3px #C85A0F; background: url("../img/central-do-cliente/sprite.png"); background-repeat:no-repeat; background-position:-532px -343px; color: #fff; float: left; border-bottom: 0;}
+.wrap-data > .box-center > .bottom > button.email{cursor: pointer; margin-right: 20px; font-size: 12px; text-transform: uppercase; width: 186px; height: 47px; color: #fff; float:right; text-indent:-15000px; border-bottom: solid 3px #C85A0F; background: url("../img/central-do-cliente/sprite.png"); background-repeat:no-repeat; background-position:-532px -833px; color: #fff; border-bottom: 0;}
+.wrap-data > .box-center > .wrap-input > select{text-transform: uppercase; font-size: 10px; color: #666; padding-top: 4px; margin-top: 7px; height: 23px; border: solid 1px #E3E3E3;}
+.wrap-data > .box-center > .wrap-input > select.force-width-90{width: 90px;}
+.wrap-data > .box-center > .wrap-input > input.force-width-27{width: 27px;}
+.wrap-data > .box-center > .wrap-input.force-margin-a{margin-left: 15px; }
+
+.wrap-data > .box-center {
+  display: block;
+  margin-left: 15px;
+}
+.notice {
+  color: #5e5e5e;
+  display: block;
+  float: left;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 17px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.opt{width:300px; padding:15px 0; clear:both;}
+.box-opt.a {
+  color: #5e5e5e;
+  display: block;
+  float: left;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 17px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.box-opt.b {
+  color: #666;
+  display: block;
+  float: left;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 17px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.box-opt > span{position:relative; left:3px; top:-2px;}
+
+.wrap-data > .box-center > .bottom.a1{}
+.wrap-data > .box-center > .bottom.a1 > button{margin-left: 0px; font-size: 12px; text-transform: uppercase; width: 197px; height: 47px; text-indent:-15000px; background: url("../img/central-do-cliente/sprite.png"); background-repeat:no-repeat; background-position:-532px -287px; color: #fff; float: left; border-bottom: 0;}
+.wrap-data > .box-center > .bottom.a1 > p{color: #666; font-size: 12px; float: left; margin: 13px 229px 0 18px; font-weight:300;}
+.wrap-data > .box-center > .bottom.a1 > p > input{float: left; margin-right: 5px;}
+
+/*Table*/
+.wrap-data > .table-title{width: 100%; height: 30px; background: #dfe6ee; margin-bottom: 12px;  float: left;}
+.wrap-data > .table-title > p{text-transform: uppercase; float: left; color: #4865A9; font-size: 10px; line-height: 27px; height: 30px;}
+.wrap-data > .table-title > p.a{width: 144px; border-right: solid 1px #ecf3f9; text-align: center;}
+.wrap-data > .table-title > p.b{width: 85px; border-right: solid 1px #ecf3f9; border-left: solid 1px #c0c8d5; padding-left: 10px;}
+.wrap-data > .table-title > p.c{width: 30px; border-right: solid 1px #ecf3f9; border-left: solid 1px #c0c8d5; text-align: center;}
+.wrap-data > .table-title > p.d{width: 210px; border-right: solid 1px #ecf3f9; border-left: solid 1px #c0c8d5; padding-left: 10px;}
+.wrap-data > .table-title > p.e{width: 70px; border-right: solid 1px #ecf3f9; border-left: solid 1px #c0c8d5; text-align: center;}
+.wrap-data > .table-title > p.f{width: 55px; border-right: solid 1px #ecf3f9; border-left: solid 1px #c0c8d5; text-align: center;}
+.wrap-data > .table-title > p.g{width: 88px; border-left: solid 1px #c0c8d5; padding-left: 10px;}
+
+.wrap-data > .adress{margin-top: 4px; width: 100%; float: left; background: #FAFAFA; border-top: solid 1px #EDEDED; border-bottom: solid 1px #EDEDED;}
+.wrap-data > .adress > p{float: left; color: #666; font-size: 12px; line-height: 27px; height: 30px;}
+.wrap-data > .adress > p.a{width: 145px; text-align: center;}
+.wrap-data > .adress > p.b{width: 87px; padding-left: 10px;}
+.wrap-data > .adress > p.c{width: 32px; text-align: center; text-transform: uppercase;}
+.wrap-data > .adress > p.d{width: 212px; padding-left: 10px;}
+.wrap-data > .adress > p.e{width: 72px; text-align: center; text-transform: uppercase;}
+.wrap-data > .adress > p.f{width: 55px; text-align: center;}
+.wrap-data > .adress > p.f > i{cursor: pointer; margin: 7px 0px 0px 20px; display: block; width: 19px; height: 15px; background: url("../img/central-do-cliente/sprite.png"); background-repeat: no-repeat; background-position: -568px -743px;}
+.wrap-data > .adress > p.g{width: 88px; padding-left: 10px;}
+.wrap-data > .adress > p.g > i{cursor: pointer; margin: 7px 0px 0px 15px; display: block; width: 19px; height: 15px; background: url("../img/central-do-cliente/sprite.png"); background-repeat: no-repeat; background-position: -591px -743px;}
+
+.wrap-data > .adress.active{background: #F2F2F2;}
+
+/*Change data active*/
+.adress.active > .wrap-data{background: #f2f2f2; float: left; display: block; border: none; border-top: 1px solid #E3E3E3;}
+
+.adress.active > .wrap-data > .box-center > .bottom.a1{}
+.adress.active > .wrap-data > .box-center > .bottom.a1 > button{margin-left: 20px; font-size: 12px; text-transform: uppercase; width: 86px; height: 40px; background: #F36F1D; color: #fff; float: left; border-bottom: solid 3px #C85A0F;}
+.adress.active > .wrap-data > .box-center > .bottom.a1 > p{color: #666; font-size: 12px; float: left; margin: 13px 318px 0px 30px;}
+.adress.active > .wrap-data > .box-center > .bottom.a1 > p > input{float: left; margin-right: 5px;}
+
+/*Bottom b*/
+.bottom-b{float: left;}
+.bottom-b > p{color: #666; font-size: 11px; line-height: 18px; margin: 0 0 43px 30px; position: relative; top: 20px; font-weight:300;}
+.bottom-b > span{color: #666; font-size: 11px; line-height: 18px;  font-weight:300; position:relative; top:-1px; }
+.bottom-b > input{margin: 10px 10px 0px 30px;}
+
+.bottom-b > button {
+  background: url("../img/central-do-cliente/bt-alterar-dados.png"); background-repeat: no-repeat; background-position: 0 0;    
+  color: #fff;
+  display: block;
+  font-size: 12px;
+  height: 42px;
+  margin: 20px 0 20px 534px;
+  text-indent: -15000px;
+  text-transform: uppercase;
+  width: 160px;
+}
+.wrap-data .title{width:696px;  border-bottom:1px #E6E6E6 solid; padding-left:30px; } 
+.wrap-data .title > p{color:#01B6AD !important;}
+.wrap-data .title > p > span{font-weight:600 !important;}
+
+/*Field-Validation-error*/
+.field-validation-error {
+  background: none repeat scroll 0 0 #a20903 !important;
+  color: #fff !important;
+  display: block !important;
+  float: right !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  height: 20px !important;
+  line-height: 20px !important;
+  margin-top: 2px !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  position: absolute !important;
+  right: 0;
+  text-align: center !important;
+  text-decoration: none !important;
+  top: 47px !important;
+  z-index: 5000 !important;
+}
+.field-validation-error i {
+  background: url("../img/central-do-cliente/arrow-fild-error.png");
+  display: block;
+  float: right;
+  height: 3px;
+  margin-left: 0;
+  margin-top: -3px;
+  width: 5px;
+}
+
+/*Change Data*/
+.wrap-data > form > .wrap-input{margin: 25px 0 0 30px; float: left; position: relative;}
+.wrap-data > form > .wrap-input > p{text-transform: uppercase; font-size: 10px; color: #666;}
+.wrap-data > form > .wrap-input > p > a{margin-left: 10px; font-size: 10px; color: #F36F1D; text-transform: none; text-decoration: underline;}
+.wrap-data > form > .wrap-input > input{line-height: 30px; color: #666; padding-left: 5px; font-size: 12px; height: 23px; border: solid 1px #E3E3E3; margin-top: 7px;}
+.wrap-data > form > .wrap-input > input.valid{border: solid 1px #8DC236;}
+.wrap-data > form > .wrap-input > input.input-validation-error{border: solid 1px #A20903;}
+.wrap-data > form > .bottom {
+  float: left;
+  height: 60px;
+  margin-top: 60px;
+  width: 100%;
+}
+.wrap-data > form > .bottom > p{color: #666; font-size: 12px; float: left; margin: 14px 0px 0px 335px;}
+.wrap-data > form > .bottom > p > a{color: #4566ab; font-size: 12px; text-decoration: underline;}
+.wrap-data > form > .bottom > button {
+  background:url(../img/central-do-cliente/bt-alterar-email.png); background-position:0 0; background-repeat:no-repeat;
+  color: #fff;
+  cursor: pointer;
+  float: left;
+  font-size: 12px;
+  height: 42px;
+  margin-left: 14px;
+  text-transform: uppercase;
+  width: 160px;
+  text-indent:-15000px;
+}
+.wrap-data > form > .wrap-input > select{text-transform: uppercase; font-size: 10px; color: #666; padding-top: 4px; margin-top: 7px; height: 23px; border: solid 1px #E3E3E3;}
+.wrap-data > form > .wrap-input > select.force-width-90{width: 90px;}
+.wrap-data > form > .wrap-input > input.force-width-27{width: 27px;}
+.wrap-data > form > .wrap-input.force-margin-a{margin-left: 29px; margin-right: 6px;}
+
+.mtop{margin-top:20px;}
+
+.wrap-data > form > .bottom.a1{}
+.wrap-data > form > .bottom.a1.dif > button{margin-left: 116px; font-size: 12px; text-transform: uppercase; width: 87px; height: 42px;color: #fff; float: left; border-bottom: 0; background:url(../img/central-do-cliente/bt-salvar.png); background-repeat:no-repeat; background-position:0 0;}
+.wrap-data > form > .bottom.a1 > button{margin-left: 20px; font-size: 12px; text-transform: uppercase; width: 187px; height: 42px;color: #fff; float: left; border-bottom: 0; background:url(../img/central-do-cliente/bt-alterar-endereco.png); background-repeat:no-repeat; background-position:0 0;}
+.wrap-data > form > .bottom.a1 > p{color: #666; font-size: 12px; float: left; margin: 13px 218px 0px 30px;}
+.wrap-data > form > .bottom.a1 > p > input{float: left; margin-right: 5px;}
+
+/*Table*/
+.wrap-data > .table-title{width: 100%; height: 30px; background: #ECECEC; margin-bottom: 12px;  float: left;}
+.wrap-data > .table-title > p{text-transform: uppercase; float: left; color: #F36F1D; font-size: 10px; line-height: 27px; height: 30px;}
+.wrap-data > .table-title > p.a{width: 144px; border-right: solid 1px #ecf3f9; text-align: center;}
+.wrap-data > .table-title > p.b{width: 85px; border-right: solid 1px #ecf3f9; border-left: solid 1px #c0c8d5; padding-left: 10px;}
+.wrap-data > .table-title > p.c{width: 30px; border-right: solid 1px #ecf3f9; border-left: solid 1px #c0c8d5; text-align: center;}
+.wrap-data > .table-title > p.d{width: 210px; border-right: solid 1px #ecf3f9; border-left: solid 1px #c0c8d5; padding-left: 10px;}
+.wrap-data > .table-title > p.e{width: 70px; border-right: solid 1px #ecf3f9; border-left: solid 1px #c0c8d5; text-align: center;}
+.wrap-data > .table-title > p.f{width: 55px; border-right: solid 1px #ecf3f9; border-left: solid 1px #c0c8d5; text-align: center;}
+.wrap-data > .table-title > p.g{width: 88px; border-left: solid 1px #c0c8d5; padding-left: 10px;}
+
+.wrap-data > form > .wrap-input > p > span {
+  color: #f36f1d;
+  font-weight: 300;
+  text-transform: none;
+}
+
+.wrap-data > .adress{margin-top: 4px; width: 100%; float: left; background: #FAFAFA; border-top: solid 1px #EDEDED; border-bottom: solid 1px #EDEDED;}
+.wrap-data > .adress > p{float: left; color: #666; font-size: 12px; line-height: 27px; height: 30px;}
+.wrap-data > .adress > p.a{width: 145px; text-align: center;}
+.wrap-data > .adress > p.b{width: 87px; padding-left: 10px;}
+.wrap-data > .adress > p.c{width: 32px; text-align: center; text-transform: uppercase;}
+.wrap-data > .adress > p.d{width: 212px; padding-left: 10px;}
+.wrap-data > .adress > p.e{width: 72px; text-align: center; text-transform: uppercase;}
+.wrap-data > .adress > p.f{width: 55px; text-align: center;}
+.wrap-data > .adress > p.f > i{cursor: pointer; margin: 6px 0px 0px 20px; display: block; width: 19px; height: 17px; background: url("../img/central-do-cliente/bt-edit.png"); background-repeat: no-repeat; background-position: 0 0;}
+.wrap-data > .adress > p.g{width: 88px; padding-left: 10px;}
+.wrap-data > .adress > p.g > i{cursor: pointer; margin: 5px 0px 0px 15px; display: block; width: 19px; height: 18px; background: url("../img/central-do-cliente/bt-delete.png"); background-repeat: no-repeat; background-position: 0 0;}
+
+.wrap-data > .adress.active{background: #F2F2F2;}

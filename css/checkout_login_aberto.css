@@ -1,0 +1,75 @@
+
+
+/*Box-1*/
+.box.b1{width: 100%; padding-bottom: 20px; margin-top: 27px; float: left;}
+.box.b1 > .box-content > form > .login-box{float: left; width: 300px; background: #F6F6F6; margin-top: 10px; border-top: solid 1px #E7E7E7; padding-top: 3px; padding-bottom: 10px; margin-left: 10px;}
+.box.b1 > .box-content > form > .login-box > .wrap-close{width: 100%; float: left;}
+.box.b1 > .box-content > form > .login-box > .wrap-close > .close-btn{cursor: pointer; float: left; margin-left: 278px; width: 17px; height: 17px; background: url("../../img/checkout/sprite.png"); background-repeat: no-repeat; background-position: -320px -510px;}
+.box.b1 > .box-content > form > .login-box > .input-box{width: 280px; margin-left: 10px; margin-top: 10px; float: left; position: relative;}
+.box.b1 > .box-content > form > .login-box > .input-box > p{width: 100%; font-size: 12px; color: #666; float: left;}
+.box.b1 > .box-content > form > .login-box > .input-box > input{width: 100%; height: 24px; border: solid 1px #E3E3E3; float: left; margin-top: 5px; color: #666; font-size: 11px; padding-left: 5px;}
+.box.b1 > .box-content > form > .login-box > .input-box > span{font-size: 10px; color: #4865a9; text-decoration: underline; float: left; margin-top: 3px;}
+.box.b1 > .box-content > form > .login-box > .enter{width: 100%; float: left; margin-top: 10px;}
+.box.b1 > .box-content > form > .login-box > .enter > button{cursor: pointer; width: 95px; height: 38px; background: #f77321; border-bottom: solid 2px #bd5108; text-align: center; text-transform: uppercase; color: #fff; float: left; margin-left: 200px;}
+/*Box-2*/
+.box.b2{width: 100%; padding-bottom: 20px; border-top: none; float: left;}
+.box.b2 > .box-content > form > .input-box{width: 138px; float: left; margin: 5px 0px 0px 15px; height: 45px; position: relative;}
+.box.b2 > .box-content > form > .input-box > p{font-size: 12px; color: #666; float: left; width: 100%;}
+.box.b2 > .box-content > form > .input-box > input{width: 136px; height: 24px; float: left; border: solid 1px #e1e1e1; margin-top: 5px; color: #666; font-size: 11px; padding-left: 5px;}
+.box.b2 > .box-content > form > .input-box.cep{margin-top: 15px; width: 300px;}
+.box.b2 > .box-content > form > .input-box.cep > input{width: 110px;}
+.box.b2 > .box-content > form > .input-box.cep > p > a{margin-left: 25px; text-decoration: underline; font-size: 10px; color: #E39777;}
+.box.b2 > .box-content > form > .input-box.adress{width: 224px;}
+.box.b2 > .box-content > form > .input-box.adress > input{width: 220px;}
+.box.b2 > .box-content > form > .input-box.number{width: 60px;}
+.box.b2 > .box-content > form > .input-box.number > input{width: 50px;}
+.box.b2 > .box-content > form > .input-box.ref{width: 280px;}
+.box.b2 > .box-content > form > .input-box.ref > input{width: 290px;}
+/*Box-3*/
+.box.b3{width: 100%; padding-bottom: 20px; border-top: none; float: left;}
+.box.b3 > .box-content > .delivery{float: left; margin: 20px 0px 0px 16px; width: 100%;}
+.box.b3 > .box-content > .delivery > input{float: left; margin: 4px 5px 0px 0px;}
+.box.b3 > .box-content > .delivery > span{text-transform: uppercase; color: #747474; font-size: 12px;}
+.box.b3 > .box-content > .delivery > p{color: #747474; font-size: 15px; margin: 5px 0px 0px 18px;}
+
+
+.open-box {
+  background: none repeat scroll 0 0 #f6f6f6;
+  border-top: 1px solid #e7e7e7;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  padding-top: 3px;
+  width: 300px;
+}
+.open-box > .input-box > p > span {
+  color: #666;
+  float: left;
+  font-size: 14px;
+  margin-right:15px;
+  display:block;
+  position:relative; top:5px;
+  margin-left:10px;
+}
+.open-box > .input-box > p > a {
+  background: none repeat scroll 0 0 #f77321;
+  border-bottom: 2px solid #bd5108;
+  color: #fff;
+  cursor: pointer;
+  float: left;
+  height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 95px;
+  font-size:11px;
+  line-height:18px;
+  position:relative;
+  top:2px;
+}
+.box.b4 > .box-content > ul > li > form > ul > li.boleto-bancario > .field-validation-error {
+
+  position: relative;
+  left:-6px;
+  top:146px !important;
+}

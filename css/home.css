@@ -1,0 +1,61 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03/09/2014, 10:59:29
+    Author     : hcruz
+*/
+
+/*Advantages Bar*/
+.wrap-advantages{width: 100%; height: 50px; border-top: solid 1px #f2f2f2; border-bottom: solid 1px #f2f2f2; float: left; background: url(../img/home/bg-advantages.png);}
+.wrap-advantages > .advantages{width: 1000px; left: 50%; position: relative; margin-left: -500px; height: 50px;}
+.wrap-advantages > .advantages > img{border: none; float: left;}
+.wrap-advantages > .advantages > a > img{border: none; float: left;}
+
+/*Banner Topo*/
+.wrap-banner-top{float: left; height: 300px; width: 100%; position: relative; overflow: hidden;}
+.wrap-banner-top > img{float: left !important; left: 50% !important; height: 300px !important; margin-left: -1000px !important; position: absolute !important; width: 2000px !important;}
+.banner-nav{float: left; position: absolute; top: 504px; z-index: 100; right: 205px;}
+.banner-nav > ul{float: left;}
+.banner-nav > ul > li{float: left;}
+.banner-nav > ul > li > a{text-indent: -99999px; width: 20px; height: 20px; background: url('../img/home/nav-banner.png'); margin-left: 1px; display: block; float: left;}
+.banner-nav > ul > li > a.activeSlide{background: url('../img/home/active-nav-banner.png');}
+
+/*Carousel Marcas*/
+.wrap-carousel-marcas{float: left; width: 100%; height: 50px; border-top: solid 1px #e6e6e6; border-bottom: solid 1px #e6e6e6; padding-top:6px;}
+.wrap-carousel-marcas > .center{width:1000px; height:100%;   margin:0 auto; overflow:hidden; position:relative;}
+.wrap-carousel-marcas > .center > ul{}
+.wrap-carousel-marcas > .center > ul > li{display:block; float:left; margin: 0 10px; height:45px; width:100px; text-align:center; line-height:71px; position:relative;}
+.wrap-carousel-marcas .left-move{width:30px; height:30px;  position:absolute; z-index:20; left:0; top:6px; background:url(../img/home/car-left.png) #fff; background-repeat:no-repeat; background-position:center center; cursor:pointer;}
+.wrap-carousel-marcas .right-move{width:30px; height:30px; position:absolute; z-index:20; right:0; top:6px;  background:url(../img/home/car-right.png) #fff; background-repeat:no-repeat; background-position:center center; cursor:pointer;}
+
+/*Box Title*/
+.wrap-content > .type-title{width: 100%; height: 45px; border-bottom: solid 5px #00b6ad; background: #fff; margin-bottom: 22px; float: left;}
+.wrap-content > .type-title > p{position: relative; background: #00b6ad; height: 45px; line-height: 48px; float: left; font-size: 20px; color: #fff; padding-left: 15px; padding-right: 15px; display: block;}
+
+/*Wrap Product*/
+.wrap-content > .wrap-product{width: 240px; height: 390px; float: left; margin-right: 13px; margin-bottom: 23px; position: relative;}
+.wrap-content > .wrap-product > a > img{float: left; margin-left: 9px; width: 222px; border-bottom: solid 6px #fafafa;}
+.wrap-content > .wrap-product > a > span.product-name{width: 222px; margin-top: 15px; float: left; font-size: 14px; color: #999; height: 30px; margin-left: 9px;}
+.wrap-content > .wrap-product > a > span.product-price{width: 222px; float: left; margin-left: 9px; margin-top: 10px;}
+.wrap-content > .wrap-product > a > span.product-price > span.old{font-size: 12px; color: #999; text-decoration: line-through;}
+.wrap-content > .wrap-product > a > span.product-price > span.separate{font-size: 12px; color: #999;}
+.wrap-content > .wrap-product > a > span.product-price > span.new{font-size: 12px; color: #fc881b;}
+.wrap-content > .wrap-product > a > span.product-price > span.new > span{font-weight: bold; font-size: 22px;}
+.wrap-content > .wrap-product > a > span.product-parcel{width: 222px; font-size: 12px; color: #999; float: left; margin-left: 9px;}
+.wrap-content > .wrap-product > a > span.product-parcel > span{color: #fc881b; font-size: 15px; font-weight: bold;}
+.wrap-content > .wrap-product > .buy-button{width: 222px; height: 34px; float: left; margin-top: 10px; margin-left: 9px;}
+.wrap-content > .wrap-product > .buy-button > .box-qtd{position: relative; width: 49px; height: 32px; background: #00b6ad; border-left: solid 1px #007a79; float: left; border-bottom: solid 2px #007a79;}
+.wrap-content > .wrap-product > .buy-button > .box-qtd > input{width: 24px; height: 20px; border-top: solid 1px #007a79; border-left: solid 1px #007a79; background: #fff; margin: 6px 0px 0px 6px; font-size: 11px; color: #999; text-align: center;}
+.wrap-content > .wrap-product > .buy-button > .box-qtd > .bt-add{cursor: pointer; width: 8px; height: 5px; background: url("../img/master/arrows-pdt-qntd.png"); display: block; position: absolute; right: 5px; top: 9px;}
+.wrap-content > .wrap-product > .buy-button > .box-qtd > .bt-remove{cursor: pointer; width: 8px; height: 6px; background: url("../img/master/arrows-pdt-qntd.png"); background-position: 0px -4px; display: block; position: absolute; right: 5px; top: 21px;}
+.wrap-content > .wrap-product > .buy-button > button.bt-comprar{width: 170px; height: 34px; background: url("../img/master/bt-buy.png"); float: left; margin-left: 1px; cursor: pointer;}
+.wrap-content > .wrap-product > .link-cat{width: 222px; margin-left: 9px; margin-top: 10px; float: left;}
+.wrap-content > .wrap-product > .link-cat > a{font-size: 11px; color: #00b6ad; font-weight: bold; text-transform: uppercase; float: right;}
+.wrap-content > .wrap-product > .tag-box{width: 40px; height: 138px; position: absolute; top: 0px; right: 0px;}
+
+
+/*Wrap advertising*/
+.wrap-content > .wrap-advertising{float: left; width: 240px; height: 390px; margin-bottom: 23px;}

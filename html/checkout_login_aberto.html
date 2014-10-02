@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="pt-br">
+    <head>
+        <title>Checkout Login Aberto</title>
+        <meta charset="UTF-8">
+        <link type="text/css" rel="stylesheet" href="../css/master/master.css" />  
+        <link href="../css/checkout.css" rel="stylesheet" type="text/css"/>
+        <link href="../css/checkout_login_aberto.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>  
+        <script type="text/javascript" src="../js/master/master.js"></script>
+    </head>
+    <body>
+        <!--BARRA FIXA-->
+        <div class="conteiner-fluid fix-bar">
+            <div class="row center-h center-fix-bar">
+                    <div class="bluebox"></div>
+                    <div class="coll4 logo">
+                        <a href="#"><img src="../img/departamento/logo.png"/></a>
+                    </div>    
+                    <div class="coll7 search">
+                        <input type="text" class="search-input">
+                        <input type="submit" class="search-button">
+                    </div>     
+                <div class="quick-access">
+                    <ul>
+
+                        <li class="b">
+                            <a href="#"><i><img src="../img/departamento/icon-cat1.png"/></i><span>Medicamentos & saude</span></a>
+                            <ul>
+                                <li><a href="#"><i><img src="../img/departamento/arrow-menu.png"/></i><span>Dor e febre</span></a></li>
+                                <li><a href="#"><i><img src="../img/departamento/arrow-menu.png"/></i><span>Alergia</span></a></li>
+                                <li><a href="#"><i><img src="../img/departamento/arrow-menu.png"/></i><span>Saúde ocular</span></a></li>
+                                <li><a href="#"><i><img src="../img/departamento/arrow-menu.png"/></i><span>Saúde óssea e articular</span></a></li>                                
+                            </ul>                            
+                        </li>
+                        <li class="c">
+                            <a href="#"><i><img src="../img/departamento/icon-cat2.png"/></i><span>Higiene <br> & beleza</span></a>
+                            <ul>
+                                <li><a href="#"><i><img src="../img/departamento/arrow-menu.png"/></i><span>Dor e febre</span></a></li>
+                                <li><a href="#"><i><img src="../img/departamento/arrow-menu.png"/></i><span>Alergia</span></a></li>
+                                <li><a href="#"><i><img src="../img/departamento/arrow-menu.png"/></i><span>Saúde ocular</span></a></li>
+                                <li><a href="#"><i><img src="../img/departamento/arrow-menu.png"/></i><span>Saúde óssea e articular</span></a></li>                                
+                            </ul>                        
+                        </li>
+                        <li class="d">
+                            <a href="#"><i><img src="../img/departamento/icon-cat3.png"/></i><span>Diabetes</span></a>
+                            <ul>
+                                <li><a href="#"><i><img src="../img/departamento/arrow-menu.png"/></i><span>Dor e febre</span></a></li>
+                                <li><a href="#"><i><img src="../img/departamento/arrow-menu.png"/></i><span>Alergia</span></a></li>
+                                <li><a href="#"><i><img src="../img/departamento/arrow-menu.png"/></i><span>Saúde ocular</span></a></li>
+                                <li><a href="#"><i><img src="../img/departamento/arrow-menu.png"/></i><span>Saúde óssea e articular</span></a></li>                                
+                            </ul>                             
+                        </li>
+                        <li class="e">
+                            <a href="#"><i><img src="../img/departamento/icon-cat4.png"/></i><span>Nutrição</span></a>
+                            <ul>
+                                <li><a href="#"><i><img src="../img/departamento/arrow-menu.png"/></i><span>Dor e febre</span></a></li>
+                                <li><a href="#"><i><img src="../img/departamento/arrow-menu.png"/></i><span>Alergia</span></a></li>
+                                <li><a href="#"><i><img src="../img/departamento/arrow-menu.png"/></i><span>Saúde ocular</span></a></li>
+                                <li><a href="#"><i><img src="../img/departamento/arrow-menu.png"/></i><span>Saúde óssea e articular</span></a></li>                                
+                            </ul>                             
+                        </li>
+                    </ul>                    
+                </div>
+                    <div class="coll2 shopping-cart">
+                        <div class="row a"><i class="a"><img src="../img/departamento/cesta.png"/></i> Minha cesta <i class="b"><img src="../img/departamento/arrow-min.png"/></i></div>
+                        <div class="row b">12 itens | R$ 1.500,00</div>
+                        <ul>
+                            <!--LOOP DE PRODUTOS-->
+                            <li>
+                                <ul>
+                                    <li class="a"><img src="../img/departamento/img-car.png"/></li>
+                                    <li class="b">Titulo do produto</li>
+                                    <li class="c">Qtd:2</li>
+                                    <li class="d">R$ 528,60</li>                                    
+                                </ul>
+                            </li>        
+                            <li>
+                                <ul>
+                                    <li class="a"><img src="../img/departamento/img-car.png"/></li>
+                                    <li class="b">Titulo do produto</li>
+                                    <li class="c">Qtd:2</li>
+                                    <li class="d">R$ 528,60</li>                                    
+                                </ul>
+                            </li> 
+                            <li>
+                                <ul>
+                                    <li class="a"><img src="../img/departamento/img-car.png"/></li>
+                                    <li class="b">Titulo do produto</li>
+                                    <li class="c">Qtd:2</li>
+                                    <li class="d">R$ 528,60</li>                                    
+                                </ul>
+                            </li> 
+                            <li>
+                                <ul>
+                                    <li class="a"><img src="../img/departamento/img-car.png"/></li>
+                                    <li class="b">Titulo do produto</li>
+                                    <li class="c">Qtd:2</li>
+                                    <li class="d">R$ 528,60</li>                                    
+                                </ul>
+                            </li>                             
+                            <!--FIM LOOP PRODUTOS-->
+                            
+                            <li>
+                                <a href="#">Finalizar compra</a>
+                                <p><span>SUB TOTAL:</span><span>R$ 1.180,90</span></p>
+                            </li>
+                        </ul>
+                    </div>                
+            </div>
+        </div>
+        <!--FIM BARRA FIXA-->
+        <div class="container-fluid body">
+            <!--TOPO-->
+            <div class="limited-fluid super-top">
+                <div class="row center-h center-top">
+                    <a href="#"><img src="../img/departamento/mini-logo.jpg"/></a>
+                </div>
+            </div>
+            <div class="wrap-top">
+                <div class="middle">
+                    <div class="wrap-logo">
+                        <a href="#"><img src="../img/carrinho/logo.png" alt="#"/></a>
+                    </div>
+                    <div class="wrap-steps">
+                        <ul>
+                            <li class="stp-a active"><i>Resumo de compras</i>resumo de compras</li>
+                            <li class="stp-b"><i>Cadastro e pagamento</i>cadastro e pagamento</li>
+                            <li class="stp-c"><i>Confirmação</i>confirmação</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--CONTENT-->
+            <div class="row center-h wrap-contents">
+            <!-------------------------------------------------------------------------------------------------------->
+            <div class="coll12 wrap-content">
+                <div class="wrap-content">
+                    <div class="type-title">
+                        <h1>Pagamento</h1>
+                    </div>
+                    <div class="coll-left">
+                        <div class="box b1">
+                            <div class="title">
+                                <p>1. Dados Pessoais</p>
+                            </div>
+                            <div class="box-content">
+                                <form>
+                                    <div class="open-box">
+                                        <div class="input-box">
+                                            <p><span>Já possui conta?</span><a href="#">Clique aqui</a></p>
+                                        </div> 
+                                    </div>
+                                    
+                                    <div class="login-box">
+                                        <div class="wrap-close">
+                                            <div class="close-btn"></div>
+                                        </div>
+                                        <div class="input-box">
+                                            <p>Informe seu E-mail</p>
+                                            <input type="text">
+                                            <span>esqueci meu e-mail</span>
+                                            <span class="field-validation-error">*Digite seu e-mail<i></i></span>
+                                        </div>
+                                        <div class="input-box">
+                                            <p>Informe sua Senha</p>
+                                            <input type="text">
+                                            <span>esqueci minha senha</span>
+                                            <span class="field-validation-error">*Digite seu e-mail<i></i></span>
+                                        </div>
+                                        <div class="enter">
+                                            <button>Entrar</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>  
+                        <div class="box b2">
+                            <div class="title">
+                                <p>2. Dados de Entrega</p>
+                            </div>
+                            <div class="box-content">
+                                <form>
+                                    <div class="input-box cep">
+                                        <p>CEP*<a href="#">Procurar CEP?</a></p>
+                                        <input type="text">
+                                        <span class="field-validation-error">*Digite seu e-mail<i></i></span>
+                                    </div>
+                                    <div class="input-box adress">
+                                        <p>Endereço*</p>
+                                        <input type="text">
+                                        <span class="field-validation-error">*Digite seu e-mail<i></i></span>
+                                    </div>
+                                    <div class="input-box number">
+                                        <p>Número*</p>
+                                        <input type="text">
+                                    </div>
+                                    <div class="input-box">
+                                        <p>Bairro*</p>
+                                        <input type="text">
+                                        <span class="field-validation-error">*Digite seu e-mail<i></i></span>
+                                    </div>
+                                    <div class="input-box">
+                                        <p>Complemento*</p>
+                                        <input type="text">
+                                        <span class="field-validation-error">*Digite seu e-mail<i></i></span>
+                                    </div>
+                                    <div class="input-box">
+                                        <p>Cidade*</p>
+                                        <input type="text">
+                                        <span class="field-validation-error">*Digite seu e-mail<i></i></span>
+                                    </div>
+                                    <div class="input-box">
+                                        <p>Estado*</p>
+                                        <input type="text">
+                                        <span class="field-validation-error">*Digite seu e-mail<i></i></span>
+                                    </div>
+                                    <div class="input-box ref">
+                                        <p>Ponto de Referência*</p>
+                                        <input type="text">
+                                        <span class="field-validation-error">*Digite seu e-mail<i></i></span>
+                                    </div>
+                                </form>
+                            </div>
+                        </div> 
+                        <div class="box b3">
+                            <div class="title">
+                                <p>3. Frete e prazo de entrega</p>
+                            </div>
+                            <div class="box-content">
+                                <div class="delivery">
+                                    <input type="radio"><span>Sedex</span>
+                                    <p>R$ 13,30 - 1 dia(s) úteis</p>
+                                </div>
+                                <div class="delivery">
+                                    <input type="radio"><span>Pac</span>
+                                    <p>Frete Grátis - 4 dia(s) úteis</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="coll-center">
+                        <div class="box b4">
+                            <div class="title">
+                                <p>4. Formas de Pagamento</p>
+                            </div>
+                            <div class="box-content">
+                                <ul>
+                                    <li class="type-card"><i class="a"></i><p>Cartão de Crédito</p></li>
+                                    <li>
+                                        <form>
+                                            <ul>
+                                                <li class="cartao-credito">
+                                                    <div class="wrap-card-box">
+                                                        <div class="card-box">
+                                                            <img src="../img/checkout/card-1.png" />
+                                                            <input type="radio" name="card">
+                                                        </div>
+                                                        <div class="card-box">
+                                                            <img src="../img/checkout/card-2.png" />
+                                                            <input type="radio" name="card">
+                                                        </div>
+                                                        <div class="card-box">
+                                                            <img src="../img/checkout/card-3.png" />
+                                                            <input type="radio" name="card">
+                                                        </div>
+                                                        <div class="card-box">
+                                                            <img src="../img/checkout/card-4.png" />
+                                                            <input type="radio" name="card">
+                                                        </div>
+                                                        <div class="card-box">
+                                                            <img src="../img/checkout/card-5.png" />
+                                                            <input type="radio" name="card">
+                                                        </div>
+                                                    </div>
+                                                    <div class="input-box a1">
+                                                        <p>Parcelas</p>
+                                                        <select>
+                                                            <option>Selecione</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="input-box a2">
+                                                        <p>*Nome do Cartão</p>
+                                                        <input type="text">
+                                                        <span class="field-validation-error">*Digite seu e-mail<i></i></span>
+                                                    </div>
+                                                    <div class="input-box a3">
+                                                        <p>*Número do Cartão</p>
+                                                        <input type="text">
+                                                        <span class="field-validation-error">*Digite seu e-mail<i></i></span>
+                                                    </div>
+                                                    <div class="input-box a4">
+                                                        <p>*Vencimento</p>
+                                                        <input type="text">
+                                                        <select>
+                                                            <option>Ano</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="input-box a5">
+                                                        <p>*Código de Segurança</p>
+                                                        <input type="text">
+                                                        <a href="#">O que é isso?</a>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </form>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="type-boleto"><i class="b"></i><p>Boleto Bancário</p></li>
+                                    <li>
+                                        <form>
+                                            <ul>
+                                                <li class="boleto-bancario">
+                                                    <input type="radio" name="radio">
+                                                    <img src="../img/checkout/card-6.png">
+                                                    <p>Pague com 15% de desconto</p>
+                                                    <span>A data de vencimento é de 3 dias corridos após a conclusão do pedido. Após esta data, ele perderá a validade.</span>
+                                                </li>
+                                            </ul>
+                                        </form>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="type-deposito"><i class="c"></i><p>Depósito Bancário</p></li>
+                                    <li>
+                                        <form>
+                                            <ul>
+                                                <li class="deposito-bancario">
+                                                    <input type="radio" name="radio">
+                                                    <img src="../img/checkout/card-7.png">
+                                                    <p>Pague com 15% de desconto</p>
+                                                    <span>A data de vencimento é de 3 dias corridos após a confirmação do pagamento.</span>
+                                                </li>
+                                            </ul>
+                                        </form>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="type-twocard"><i class="d"></i><p>2 Cartões Crédito</p></li>
+                                    <li>
+                                        <form>
+                                            <ul>
+                                                <li class="cartao-credito">
+                                                    <div class="wrap-card-box">
+                                                        <div class="card-box">
+                                                            <img src="../img/checkout/card-1.png" />
+                                                            <input type="radio" name="card">
+                                                        </div>
+                                                        <div class="card-box">
+                                                            <img src="../img/checkout/card-2.png" />
+                                                            <input type="radio" name="card">
+                                                        </div>
+                                                        <div class="card-box">
+                                                            <img src="../img/checkout/card-3.png" />
+                                                            <input type="radio" name="card">
+                                                        </div>
+                                                        <div class="card-box">
+                                                            <img src="../img/checkout/card-4.png" />
+                                                            <input type="radio" name="card">
+                                                        </div>
+                                                        <div class="card-box">
+                                                            <img src="../img/checkout/card-5.png" />
+                                                            <input type="radio" name="card">
+                                                        </div>
+                                                        <div class="input-box a1">
+                                                            <p>Parcelas</p>
+                                                            <select>
+                                                                <option>Selecione</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="input-box a2">
+                                                            <p>*Nome do Cartão</p>
+                                                            <input type="text">
+                                                        </div>
+                                                        <div class="input-box a3">
+                                                            <p>*Número do Cartão</p>
+                                                            <input type="text">
+                                                        </div>
+                                                        <div class="input-box a4">
+                                                            <p>*Vencimento</p>
+                                                            <input type="text">
+                                                            <select>
+                                                                <option>Ano</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="input-box a5">
+                                                            <p>*Código de Segurança</p>
+                                                            <input type="text">
+                                                            <a href="#">O que é isso?</a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </form>
+                                        <form>
+                                            <ul>
+                                                <li class="cartao-credito">
+                                                    <div class="wrap-card-box">
+                                                        <div class="card-box">
+                                                            <img src="../img/checkout/card-1.png" />
+                                                            <input type="radio" name="card">
+                                                        </div>
+                                                        <div class="card-box">
+                                                            <img src="../img/checkout/card-2.png" />
+                                                            <input type="radio" name="card">
+                                                        </div>
+                                                        <div class="card-box">
+                                                            <img src="../img/checkout/card-3.png" />
+                                                            <input type="radio" name="card">
+                                                        </div>
+                                                        <div class="card-box">
+                                                            <img src="../img/checkout/card-4.png" />
+                                                            <input type="radio" name="card">
+                                                        </div>
+                                                        <div class="card-box">
+                                                            <img src="../img/checkout/card-5.png" />
+                                                            <input type="radio" name="card">
+                                                        </div>
+                                                        <div class="input-box a1">
+                                                            <p>Parcelas</p>
+                                                            <select>
+                                                                <option>Selecione</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="input-box a2">
+                                                            <p>*Nome do Cartão</p>
+                                                            <input type="text">
+                                                        </div>
+                                                        <div class="input-box a3">
+                                                            <p>*Número do Cartão</p>
+                                                            <input type="text">
+                                                        </div>
+                                                        <div class="input-box a4">
+                                                            <p>*Vencimento</p>
+                                                            <input type="text">
+                                                            <select>
+                                                                <option>Ano</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="input-box a5">
+                                                            <p>*Código de Segurança</p>
+                                                            <input type="text">
+                                                            <a href="#">O que é isso?</a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </form>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="type-multi-pagamento"><i class="e"></i><p>Multi Pagamento</p></li>
+                                    <li>
+                                        <form>
+                                            <ul>
+                                                <li class="cartao-credito">
+                                                    <div class="wrap-card-box">
+                                                        <div class="card-box">
+                                                            <img src="../img/checkout/card-1.png" />
+                                                            <input type="radio" name="card">
+                                                        </div>
+                                                        <div class="card-box">
+                                                            <img src="../img/checkout/card-2.png" />
+                                                            <input type="radio" name="card">
+                                                        </div>
+                                                        <div class="card-box">
+                                                            <img src="../img/checkout/card-3.png" />
+                                                            <input type="radio" name="card">
+                                                        </div>
+                                                        <div class="card-box">
+                                                            <img src="../img/checkout/card-4.png" />
+                                                            <input type="radio" name="card">
+                                                        </div>
+                                                        <div class="card-box">
+                                                            <img src="../img/checkout/card-5.png" />
+                                                            <input type="radio" name="card">
+                                                        </div>
+                                                        <div class="input-box a1">
+                                                            <p>Parcelas</p>
+                                                            <select>
+                                                                <option>Selecione</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="input-box a2">
+                                                            <p>*Nome do Cartão</p>
+                                                            <input type="text">
+                                                        </div>
+                                                        <div class="input-box a3">
+                                                            <p>*Número do Cartão</p>
+                                                            <input type="text">
+                                                        </div>
+                                                        <div class="input-box a4">
+                                                            <p>*Vencimento</p>
+                                                            <input type="text">
+                                                            <select>
+                                                                <option>Ano</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="input-box a5">
+                                                            <p>*Código de Segurança</p>
+                                                            <input type="text">
+                                                            <a href="#">O que é isso?</a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </form>
+                                        <form>
+                                            <ul>
+                                                <li class="boleto-bancario">
+                                                    <input type="radio" name="radio">
+                                                    <img src="../img/checkout/card-6.png">
+                                                    <p>Pague com 15% de desconto</p>
+                                                    <span>A data de vencimento é de 3 dias corridos após a conclusão do pedido. Após esta data, ele perderá a validade.</span>
+                                                    <p class="value">Valor Boleto:</p>
+                                                    <input type="text" class="value">
+                                                    <span class="field-validation-error">*Digite seu e-mail<i></i></span>
+                                                </li>
+                                            </ul>
+                                        </form>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="type-cheque"><i class="f"></i><p>Cheque</p></li>
+                                    <li>
+                                        <form>
+                                            <ul>
+                                                <li class="cheque">
+                                                    <p>Informe os dados do Cheque!</p>
+                                                    <div class="wrap-radio">
+                                                        <div class="radio-box">
+                                                            <input type="radio"><span>À vista</span>
+                                                        </div>
+                                                        <div class="radio-box">
+                                                            <input type="radio"><span>30 Dias</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrap-input">
+                                                        <div class="input-box">
+                                                            <span>Banco:</span><input type="text">
+                                                            <span class="field-validation-error">*Digite seu e-mail<i></i></span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrap-input">
+                                                        <div class="input-box">
+                                                            <span>Agência:</span><input type="text">
+                                                            <span class="field-validation-error">*Digite seu e-mail<i></i></span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrap-input">
+                                                        <div class="input-box">
+                                                            <span>Nº do Cheque:</span><input type="text">
+                                                            <span class="field-validation-error">*Digite seu e-mail<i></i></span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrap-alert">
+                                                        <p>O Cheque será retirado em mãos no ato da entrega do pedido.</p> 
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </form>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="type-money"><i class="f"></i><p>Dinheiro</p></li>
+                                    <li>
+                                        <form>
+                                            <ul>
+                                                <li class="dinheiro">
+                                                    <div class="wrap-input">
+                                                        <div class="input-box">
+                                                            <span>Valor em R$:</span><input type="text">
+                                                        </div>
+                                                    </div>
+                                                    <div class="wrap-alert">
+                                                        <p>
+                                                            O Valor em dinheiro será recebido em mãos no ato da entrega do pedido.<br>
+                                                            Caso o valor informado no campo seja maior que o pedido, será entregue o troco.
+                                                        </p> 
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </form>
+                                    </li>
+                                </ul>
+                                <p>Você gostaria de acrescentar um comentário sobre sua compra?</p>
+                                <textarea></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="coll-right">
+                        <div class="box b5">
+                            <div class="title">
+                                <p>5. Revisão de pagamento</p>
+                            </div>
+                            <div class="box-content">
+                                <div class="finalize">
+                                    <button></button>
+                                </div>
+                                <div class="box-car">
+                                    <div class="top-table">
+                                        <div class="tt1">Produto</div>
+                                        <div class="tt2">Qtd</div>
+                                        <div class="tt3">Preço</div>
+                                    </div>
+                                    <div class="product-box">
+                                        <div class="product">
+                                            <img src="../img/checkout/pdt1.png" />
+                                            <p>Ácido Acetilsalicilico...</p>
+                                        </div>
+                                        <div class="quantity">2</div>
+                                        <div class="price">R$ 100,00</div>
+                                    </div>
+                                    <div class="payment-info">
+                                        <div class="side-a">SubTotal:</div><div class="side-b">R$ 1.000,00</div>
+                                        <div class="side-a">Pac( até 8 dias úteis):</div><div class="side-b">R$ 20,00</div>
+                                        <div class="side-a">Desconto:</div><div class="side-b">R$ 0,00</div>
+                                        <div class="side-a total">Valor Total:</div><div class="side-b total">R$ 100,00</div>
+                                    </div>
+                                </div>
+                                <div class="finalize">
+                                    <button></button>
+                                </div>
+                                <div class="accept-terms">
+                                    <input type="checkbox">
+                                    <p>Aceito os termos de uso</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <!-------------------------------------------------------------------------------------------------------->    
+            
+            </div>
+            <div class="row-fluid footer">
+                <div class="row-fluid line-top-footer"></div>
+                <div class="row footer-top">
+                    <div class="coll2 box-list a">
+                        <dl>
+                            <dt><i></i><a href="#">Central do cliente</a></dt>
+                            <dd><i></i><a href="#">Trocas e devolução</a></dd>
+                            <dd><i></i><a href="#">Meus pedidos</a></dd>
+                            <dd><i></i><a href="#">Cadastro</a></dd>
+                            <dd><i></i><a href="#">Política de entrega</a></dd>
+                            <dd><i></i><a href="#">Política de pagamento</a></dd>
+                        </dl>
+                    </div>
+                    <div class="coll2 box-list b">
+                        <dl>
+                            <dt><i></i><a href="#">Auto atendimento</a></dt>
+                            <dd><i></i><a href="#">Trocas e devolução</a></dd>
+                            <dd><i></i><a href="#">Meus pedidos</a></dd>
+                            <dd><i></i><a href="#">Cadastro</a></dd>
+                            <dd><i></i><a href="#">Política de entrega</a></dd>
+                            <dd><i></i><a href="#">Política de pagamento</a></dd>
+                        </dl>
+                    </div>
+                    <div class="coll2 box-list c">
+                        <dl>
+                            <dt><i></i><a href="#">Institucional</a></dt>
+                            <dd><i></i><a href="#">Trocas e devolução</a></dd>
+                            <dd><i></i><a href="#">Meus pedidos</a></dd>
+                            <dd><i></i><a href="#">Cadastro</a></dd>
+                            <dd><i></i><a href="#">Política de entrega</a></dd>
+                            <dd><i></i><a href="#">Política de pagamento</a></dd>
+                        </dl>
+                    </div>
+                    <div class="coll2 box-list d">
+                        <dl>
+                            <dt><i></i><a href="#">Atendimento online</a></dt>
+                            <dd>De segunda a sexta <br>das 9h ás 10h</dd>
+                            <dd>SAC: (11) 3001-0202</dd>
+                            <dd>Televendas: (11) 3001-2020</dd>
+                        </dl>
+                    </div>                 
+                </div>
+                <div class="row footer-middle">
+                    <div class="coll2 box-list a">
+                        <dl>
+                            <dt>Formas de pagamento:</dt>
+                            <dd><img src="../img/departamento/card1.png" alt="NAME CARD" title="TITLE CARD"/></dd>
+                            <dd><img src="../img/departamento/card2.png" alt="NAME CARD" title="TITLE CARD"/></dd>
+                            <dd><img src="../img/departamento/card3.png" alt="NAME CARD" title="TITLE CARD"/></dd>
+                            <dd><img src="../img/departamento/card4.png" alt="NAME CARD" title="TITLE CARD"/></dd>
+                            <dd><img src="../img/departamento/card5.png" alt="NAME CARD" title="TITLE CARD"/></dd>
+                            <dd><img src="../img/departamento/card6.png" alt="NAME CARD" title="TITLE CARD"/></dd>
+                            <dd><img src="../img/departamento/card7.png" alt="NAME CARD" title="TITLE CARD"/></dd>
+                            <dd><img src="../img/departamento/card8.png" alt="NAME CARD" title="TITLE CARD"/></dd>                        
+                        </dl>
+                    </div>
+                    <div class="coll2 box-list b">
+                        <dl>
+                            <dt>Segurança:</dt>
+                            <dd><img src="../img/departamento/img-comodo.png" alt="Comodo Secure" title="Comodo Secure"/></dd>
+                        </dl>
+                    </div>
+                    <div class="coll2 box-list c">
+                        <dl>
+                            <dt>Credibilidade</dt>
+                            <dd><img src="../img/departamento/img-ebit.png" alt="Diamante e-bit" title="Diamante e-bit"/></dd>
+                            <dd><img src="../img/departamento/img-alexa.png" alt="Alexa" title="Alexa"/></dd>
+                        </dl>
+                    </div>
+                    <div class="coll2 box-list d">
+                        <dl>
+                            <dt>Distribuição:</dt>
+                            <dd><img src="../img/departamento/img-onofre.png" alt="Onofre" title="Onofre"/></dd>
+                        </dl>
+                    </div>
+                    <div class="coll2 box-list e">
+                        <dl>
+                            <dt>Em parceria com:</dt>
+                            <dd><img src="../img/departamento/img-sanofi.png" alt="Sanofi" title="Sanofi"/></dd>
+                        </dl>
+                    </div>
+                </div>   
+                <div class="row-fluid footer-bottom">
+                    <div class="row center-h description">
+                        <ul>
+                            <li>Site SanofiStore - Um serviço Sanofi</li>
+                            <li>Av. Major Sylvio de Magalhães Padilha, 5.200 - Ed. Atlanta, Morumbi - São Paulo, SP - CEP: 05693-000</li>
+                            <li>Distribuição - Um serviço Onofre</li>
+                            <li>Drogaria Endereço, Farmacêutico Responsável, SAC...</li>
+                            <li>Copyright © 2014 Sanofi. Todos os direitos reservados.</li>
+                        </ul>
+                    </div>
+                </div>   
+                <div class="row-fluid footer-bottom line-bottom">
+                    <div class="row center-h lesspadding">
+                        <div class="coll2 creatby">
+                            <a href="http://vannon.com.br">
+                                <img src="../img/departamento/creatby.png"/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

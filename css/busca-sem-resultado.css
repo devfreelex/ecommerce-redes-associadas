@@ -1,0 +1,198 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02/05/2014, 16:35:30
+    Author     : hhcruz
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic);
+
+body {line-height: 1; font-family: 'Lato', sans-serif; background:#fff;}
+
+.wrap-content{padding-bottom:0;}
+.wrap-content .stepsToSearch {
+  border-bottom: 1px solid #ededed;
+  float: left;
+  padding: 25px 0;
+  width: 100%;
+}
+.wrap-content .stepsToSearch > p{
+    width:320px;  
+    float:left; 
+    text-transform:uppercase; 
+    color:#18191D; 
+    font-size:10px; 
+    line-height:12px;
+    position:relative;
+    margin:0;
+}
+.wrap-content .stepsToSearch > p > span{
+width:40px; 
+height:40px;
+float:left;
+background-image:url(../img/busca-sem-resultado/bg1.png); 
+background-position:0 0;
+background-repeat:no-repeat;
+text-indent:-15000px;
+}
+.wrap-content .stepsToSearch > p.step.b > span{
+    background-image:url(../img/busca-sem-resultado/bg2.png); 
+    background-position:0 0;
+}
+.wrap-content .stepsToSearch > p.step.b > span + span{background:none;}
+.wrap-content .stepsToSearch > p.step.c > span{
+    background-image:url(../img/busca-sem-resultado/bg3.png); 
+    background-position:0 0;
+}
+.wrap-content .stepsToSearch > p.step.c > span + span{background:none;}
+.wrap-content .stepsToSearch > p > span + span {
+  background: none;
+  color: #666;
+  float: left;
+  font-size: 13px;
+  height: 25px;
+  margin-top: 10px;
+  text-indent: 0;
+  text-transform: none;
+  width: 234px;
+  line-height:15px;
+  position:relative;
+  top:-7px;
+  
+}
+.TermSearch{
+    width:100%;
+    height:45px;
+    float:left;
+    padding: 20px 0 35px 0;
+    border-bottom:1px #ededed solid;
+}
+.TermSearch > span{
+    width:45px; 
+    height:45px; 
+    float:left; 
+    background-image:url(../img/busca-sem-resultado/img-low.jpg);
+    background-repeat:no-repeat;
+    background-position:0 0;
+    text-indent:-15000px;
+    text-transform:uppercase;
+    font-stretch:condensed;
+    line-height:28px;
+    font-size: 18px;
+    color:#666;
+    position:relative;
+    top:4px;
+    font-family:lato;
+
+}
+.TermSearch > span > span{
+    color: #FC881B;
+    padding:0 2px;
+    font-weight:600;   
+    font-family:lato;
+}
+.TermSearch > span + span{
+    width:935px; 
+    height:45px; 
+    float:left; 
+    text-indent:0; 
+    background:none;
+    font-weight:500;
+    position:relative;
+    top:0;
+    word-spacing: 4px;
+}
+.mostPopular {
+  clear: both;
+  float: left;
+  margin-top: 13px;
+  position: relative;
+  width: 100%;
+}
+.mostPopular > .option {
+  background: url("../img/busca-sem-resultado/bg-boll.png");
+  background-position:0 0;
+  background-repeat: no-repeat;
+  height: 40px;
+  left: 304px;
+  position: absolute;
+  text-indent: 9px;
+  top: 165px;
+  width: 40px;
+  line-height:34px;
+  color:#fff;
+  font-family: lato;    
+}
+.mostPopular > .titles{
+    height:45px;
+    float:left;
+    font-size:21px;
+    color:#444444;
+    text-transform:uppercase;
+    font-weight:300;
+}
+.mostPopular > .titles.left{
+    width: 322px;
+    height: 45px;
+    background: #01B6AD;
+    color: #fff;
+    line-height: 45px;
+    font-weight:600;
+}
+.mostPopular > .titles.right {
+    height: 45px;
+    line-height: 45px;
+    background: #f8f8f8;
+    width: 658px;
+    color:#01B6AD;
+    font-weight:600;
+}
+.mostPopular > .titles.right > span {padding-right:5px !important; margin-left: 55px; }
+.mostPopular > .titles.left > span {color:#fff;}
+.mostPopular > .titles > span{
+    font-size:21px;
+    font-weight:600;
+    text-transform:uppercase;
+    margin-left: 10px;
+    color:#01B6AD;
+}
+.mostPopular > .coll-left {
+  border-right: 1px solid #f0f0f0;
+  float: left;
+  width: 322px;
+}
+.mostPopular > .coll-right {
+  border: 0 none;
+  float: left;
+  padding-left: 45px;
+  width: 600px;
+}
+.items {
+  display: inline-table;
+  overflow: hidden;
+  width: 230px;
+  margin: 10px 0px 0px 10px;
+}
+.items > .title{
+    font-size:12px;
+    color:#fc881b;
+    text-align:left;
+    text-transform:uppercase;
+    border-bottom:2px #fc881b solid;
+    float:left;
+    padding: 0 15px 5px 0;
+    margin-bottom:15px;
+    margin-top:10px;
+    width:100%;
+}
+.items > ul{list-style:none; padding:0; margin:0 0 15px 0; clear:both;}
+.items > ul > li{padding:5px 0; margin:0;}
+.items > ul > li > a{color:#656363; font-size:12px; text-decoration:none;}
+.items > ul > li > a > span{color:#666; font-size:13px; text-decoration:none;}
+.mostPopular > .coll-right > .items {
+  margin-right: 25px;
+}
+

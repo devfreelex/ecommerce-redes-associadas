@@ -1,0 +1,142 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03/09/2014, 10:59:29
+    Author     : hcruz
+*/
+
+/*Header*/
+.secure-header > .top-line-bar{float: left; width: 100%; background: #00b6ad; height: 30px;} 
+.secure-header > .top-content{float: left; width: 100%; height: 111px; border-bottom: solid 1px #e4e4e4;}
+.secure-header > .top-content > .center{width: 1000px; margin-left: -500px; float: left; position: relative; left: 50%; height: 111px;}
+.secure-header > .top-content > .center > img{float: left; margin: 10px 0px 0px 0px;}
+.secure-header > .top-content > .center > .top-secure-nav{float: left; margin: 7px 0px 0px 174px; position: relative; width: 571px; height: 89px; background: url('../img/carrinho/checkout-nav-bg.png');}
+.secure-header > .top-content > .center > .top-secure-nav > .square-a{background: url('../img/carrinho/nav-icon-cart.png'); width: 33px; height: 33px; position: absolute; top: 18px; left: 52px;}
+.secure-header > .top-content > .center > .top-secure-nav > .square-b{background: url('../img/carrinho/nav-icon-default.png'); background-repeat: no-repeat; width: 33px; height: 33px; position: absolute; top: 21px; left: 275px;}
+.secure-header > .top-content > .center > .top-secure-nav > .square-c{background: url('../img/carrinho/nav-icon-default.png'); background-repeat: no-repeat; width: 33px; height: 33px; position: absolute; top: 21px; left: 501px;}
+.secure-header > .top-content > .center > .top-secure-nav > .text-a{font-size: 11px; color: #00b6ad; text-transform: uppercase; position: absolute; top: 63px; left: 12px;}
+.secure-header > .top-content > .center > .top-secure-nav > .text-b{font-size: 11px; color: #00b6ad; text-transform: uppercase; position: absolute; top: 63px; left: 222px;}
+.secure-header > .top-content > .center > .top-secure-nav > .text-c{font-size: 11px; color: #00b6ad; text-transform: uppercase; position: absolute; top: 63px; left: 475px;}
+
+/*Footer*/
+.secure-footer > .wrap-footer-content{border-top: solid 14px #00b6ad; width: 100%; padding-top: 30px; padding-bottom: 30px; float: left; background: url("../img/master/bg-footer-content.png");}
+.secure-footer > .wrap-footer-content > .center{width: 1000px; left: 50%; margin-left: -500px; position: relative;}
+.secure-footer > .wrap-footer-content > .center > .wrap-all-box{float: left; width: 1000px;}
+.secure-footer > .wrap-footer-content > .center > .wrap-all-box > .content-box{width: 388px; margin-right: 40px; height: 130px; border-right: solid 1px #d5d5d5; float: left; margin-bottom: 30px;}
+.secure-footer > .wrap-footer-content > .center > .wrap-all-box > .content-box > dl > dt{font-size: 14px; color: #00b6ad; text-transform: uppercase; font-weight: bold; margin-bottom: 20px;}
+.secure-footer > .wrap-footer-content > .center > .wrap-all-box > .content-box > span{font-size: 14px; width: 100%; float: left; color: #00b6ad; text-transform: uppercase; font-weight: bold; margin-bottom: 20px;}
+.secure-footer > .wrap-footer-content > .center > .wrap-all-box > .content-box > dl > dd > a{font-size: 12px; color: #999; line-height: 20px;}
+.secure-footer > .wrap-footer-content > .center > .wrap-all-box > .content-box > dl > dd > a > i{display: block; background: #00c1aa; width: 5px; height: 5px; float: left; margin: 7px 7px 0px 0px;}
+.secure-footer > .wrap-footer-content > .center > .wrap-all-box > .content-box > .cards{float: left; width: 215px; margin: 0px 0px 0px 0px;}
+.secure-footer > .wrap-footer-content > .center > .wrap-all-box > .content-box > .cards > img{float: left; margin: 0px 9px 11px 0px;}
+.secure-footer > .wrap-footer-content > .center > .wrap-all-box > .content-box > img{display: block; margin-bottom: 5px; float: left; margin-left: 20px;}
+.secure-footer > .wrap-footer-content > .center > .wrap-all-box > .content-box > img.force-float{float: left;}
+.secure-footer > .wrap-footer-content > .center > .wrap-all-box > .content-box > img.force-margin{margin: 30px 0px 0px 35px;}
+.secure-footer > .wrap-footer-content > .center > .wrap-all-box > .content-box > img.no-margin{margin: 0;}
+
+.secure-footer > .wrap-bottom-text{width: 100%; height: 130px; background: #f6f6f6; float: left;}
+.secure-footer > .wrap-bottom-text > p{font-size: 10px; color: #999; width: 1000px; margin: 0 auto; text-align: center; line-height: 20px; top: 34px; position: relative;}
+
+.secure-footer > .line-bottom{width: 100%; height: 48px; background: #00b6ad; float: left;}
+.secure-footer > .line-bottom > .center{width: 1000px; margin-left: -500px; left: 50%; position: relative;}
+.secure-footer > .line-bottom > .center > img{position: absolute; right: 0; top: 8px;}
+
+.secure-footer > .wrap-footer-content > .center > .wrap-all-box > .content-box.no-border{border: none;}
+.secure-footer > .wrap-footer-content > .center > .wrap-all-box > .content-box.width260{width: 260px;}
+.secure-footer > .wrap-footer-content > .center > .wrap-all-box > .content-box.width230{width: 230px;}
+
+/*Box Title*/
+.wrap-title{float: left; width: 100%; margin-top: 25px; margin-bottom: 22px;}
+.wrap-title > .type-title{width: 730px; height: 45px; border-bottom: solid 5px #00b6ad; background: #fff; float: left;}
+.wrap-title > .type-title > p{position: relative; background: #00b6ad; height: 45px; line-height: 48px; float: left; font-size: 20px; color: #fff; padding-left: 15px; padding-right: 15px; display: block;}
+.wrap-title > button{width: 247px; height: 53px; background: url('../img/carrinho/finalizar-btn.png'); float: left; margin: -3px 0px 0px 23px;}
+
+/*Product Table*/
+ul.top-table{width: 998px; background: #fafafa; border: solid 1px #ededed; float: left; height: 30px;}
+ul.top-table > li{border-right: solid 1px #ededed; float: left; width: 486px; height: 30px; font-size: 11px; color: #00b6ad; font-weight: bold; text-transform: uppercase; line-height: 30px; text-indent: 17px;}
+ul.top-table > li + li{width: 105px; text-align: center; text-indent: 0; border-right: solid 1px #ededed;}
+ul.top-table > li + li + li{width: 117px;}
+ul.top-table > li + li + li + li{width: 130px;}
+ul.top-table > li + li + li + li + li{width: 129px; border-right: none;}
+
+ul.product-list{width: 1000px; float: left; margin-bottom: 3px;}
+ul.product-list > li{height: 83px; margin-top: 3px; border: solid 1px #ededed; width: 998px; position: relative;}
+ul.product-list > li > i{height: 85px; width: 5px; background: #ededed; position: relative; display: block; top: -1px; left: -1px; float: left;}
+ul.product-list > li:hover > i{background: #00b6ad;}
+ul.product-list > li > .product{width: 482px; height: 83px; float: left;}
+ul.product-list > li > .product > a > img{float: left; margin: 2px 0px 0px 3px;}
+ul.product-list > li > .product > a > p{font-size: 12px; color: #999; float: left; margin: 30px 0px 0px 10px;}
+ul.product-list > li > .product > a > p > span{font-size: 12px; color: #fc881b;}
+ul.product-list > li > .present{width: 106px; height: 83px; float: left;}
+ul.product-list > li > .present > form{position: relative; float: left; margin: 35px 0 0 30px;}
+ul.product-list > li > .present > form > i{cursor: pointer; position: absolute; top: 0px; left: -1px; z-index: 2; width: 14px; height: 14px; background: url('../img/carrinho/non-active-radio.png');}
+ul.product-list > li > .present > form > i.active{cursor: pointer; background: url('../img/carrinho/active-radio.png');}
+ul.product-list > li > .present > form > input{float: left;}
+ul.product-list > li > .present > i{float: left; display: block; margin: 26px 0px 0px 10px; width: 23px; height: 27px; background: url("../img/carrinho/present-icon.png");}
+ul.product-list > li > .present > i.active{background-position: -25px 0px;}
+ul.product-list > li > .quantity{width: 118px; height: 83px; float: left; position: relative;}
+ul.product-list > li > .quantity > input{width: 48px; height: 29px; float: left; margin: 26px 0 0 33px; background: #fafafa; border: solid 1px #f5f5f5; font-size: 12px; color: #666666; text-align: center;}
+ul.product-list > li > .quantity > .arrow-up{cursor: pointer; width: 11px; height: 7px; background: url('../img/carrinho/quantity-arrow-top.png'); display: block; top: 14px; left: 52px; position: absolute;}
+ul.product-list > li > .quantity > .arrow-down{cursor: pointer; width: 11px; height: 7px; background: url('../img/carrinho/quantity-arrow-bottom.png'); display: block; top: 61px; left: 52px; position: absolute;}
+ul.product-list > li > .unit-value{width: 131px; height: 83px; float: left; position: relative; font-size: 12px; color: #666; text-transform: uppercase; line-height: 84px; text-indent: 15px;}
+ul.product-list > li > .total-value{width: 131px; height: 83px; float: left; position: relative; font-size: 12px; color: #666; text-transform: uppercase; line-height: 84px; text-indent: 15px;}
+ul.product-list > li > .del-btn{width: 23px; height: 85px; float: left; right: -2px; top: -1px; position: relative; background: url('../img/carrinho/del-icon-gray.png') #efefef; background-repeat: no-repeat; background-position: 6px 35px;}
+ul.product-list > li > .del-btn:hover{background: url('../img/carrinho/del-icon-white.png') #00b6ad; background-repeat: no-repeat; background-position: 6px 35px;}
+
+.line-subtotal{height: 32px; width: 998px; background: #fafafa; border: solid 1px #ededed; float: left;}
+.line-subtotal > .right{width: 291px; height: 32px; float: right; font-size: 11px; color: #666; line-height: 34px; text-transform: uppercase;}
+.line-subtotal > .right > span{float: left; margin: 0px 0px 0px 20px;}
+.line-subtotal > .right > span + span{float: right; position: relative; left: -75px;}
+
+.line-desc{height: 32px; width: 998px; background: #fafafa; border: solid 1px #ededed; float: left; margin-top: 3px;}
+.line-desc > span{font-size: 10px; color: #666; line-height: 35px; float: left; margin: 0px 0px 0px 10px; text-transform: uppercase;}
+.line-desc > .input-box{float: left; position: relative; margin: 5px 0px 0px 40px; }
+.line-desc > .input-box > .placeholder{position: absolute; left: 0px; top: 0px; width: 87px; height: 22px; font-size: 10px; color: #a8a8a8; font-style: italic; line-height: 22px; padding-left: 6px;}
+.line-desc > .input-box > input{float: left; font-style: italic; width: 90px; height: 20px; background: #fff; border: solid 1px #efefef; font-size: 10px; color: #a8a8a8; line-height: 22px; padding-left: 5px;}
+.line-desc > button{float: left; padding-left: 12px; padding-right: 12px; height: 22px; background: #00b6ad; font-size: 10px; color: #ffffff; line-height: 22px; text-transform: uppercase; margin: 5px 0px 0px 3px;}
+.line-desc > .right{width: 291px; height: 32px; float: right; font-size: 11px; color: #666; line-height: 34px; text-transform: uppercase;}
+.line-desc > .right > span{float: left; margin: 0px 0px 0px 20px;}
+.line-desc > .right > span + span{float: right; position: relative; left: -97px;}
+.line-desc > .alert{display: none; height: 22px; padding-left: 15px; padding-right: 15px; background: #def0d6; font-size: 10px; color: #55880f; line-height: 22px; float: left; margin: 5px 0px 0px 24px;}
+
+.line-frete{height: 32px; width: 998px; background: #fafafa; border: solid 1px #ededed; float: left; margin-top: 3px; position: relative;}
+.line-frete > span{font-size: 10px; color: #666; line-height: 35px; float: left; margin: 0px 0px 0px 10px; text-transform: uppercase;}
+.line-frete > .input-box{float: left; position: relative; margin: 5px 0px 0px 10px; }
+.line-frete > .input-box > input{float: left; font-style: italic; width: 90px; height: 20px; background: #fff; border: solid 1px #efefef; font-size: 10px; color: #a8a8a8; line-height: 22px; padding-left: 5px;}
+.line-frete > .input-box > .placeholder{position: absolute; left: 0px; top: 0px; width: 87px; height: 22px; font-size: 10px; color: #a8a8a8; font-style: italic; line-height: 22px; padding-left: 6px;}
+.line-frete > button{float: left; padding-left: 12px; padding-right: 12px; height: 22px; background: #fc881c; font-size: 10px; color: #ffffff; line-height: 22px; text-transform: uppercase; margin: 5px 0px 0px 3px;}
+.line-frete > .right{width: 291px; height: 32px; float: right; font-size: 11px; color: #666; line-height: 34px; text-transform: uppercase;}
+.line-frete > .right > span{float: left; margin: 0px 0px 0px 20px;}
+.line-frete > .right > span + span{float: right; position: relative; left: -99px;}
+.line-frete > .alert{height: 22px; padding-left: 15px; padding-right: 15px; background: #def0d6; font-size: 10px; color: #55880f; line-height: 22px; float: left; margin: 5px 0px 0px 24px;}
+.line-frete > a{font-size: 10px; color: #fc881c; float: left; text-decoration: underline; margin: 10px 0px 0px 9px;}
+.line-frete > .wrap-delivery{display: none; height: 80px; background: #fff; border: solid 1px #fc881c; padding-left: 20px; position: absolute; top: 35px;}
+.line-frete > .wrap-delivery > .delivery-type.no-border{border: none;}
+.line-frete > .wrap-delivery > i{display: block; width: 17px; height: 9px; background: url('../img/carrinho/box-arrow-delivery.png'); position: absolute; top: -9px; left: 315px; z-index: 2;}
+.line-frete > .wrap-delivery > .delivery-type{height: 73px; width: 200px; background: #fff; margin-right: 20px; border-right: solid 1px #e4e4e4; margin-top: 4px; float: left;}
+.line-frete > .wrap-delivery > .delivery-type > form{float: left; margin: 33px 20px 0px 0px; position: relative;}
+.line-frete > .wrap-delivery > .delivery-type > form > i{position: absolute; top: 0px; left: 0px; z-index: 2; width: 14px; height: 14px; background: url('../img/carrinho/non-active-radio.png');}
+.line-frete > .wrap-delivery > .delivery-type > form > i.active{background: url('../img/carrinho/active-radio.png');}
+.line-frete > .wrap-delivery > .delivery-type > form > input{float: left;}
+.line-frete > .wrap-delivery > .delivery-type > span{float: left; margin: 15px 0px 0px 0px; font-size: 12px; color: #777777;}
+.line-frete > .wrap-delivery > .delivery-type > span > span{color: #fc881c;}
+.line-frete > .wrap-delivery > .delivery-type > span + span{float: left; font-size: 11px; margin: 5px 0px 0px 0px;}
+.line-frete > .wrap-delivery > .delivery-type > span + span > span{color: #fc881c;}
+
+.line-present{height: 32px; width: 998px; background: #fafafa; border: solid 1px #ededed; float: left; margin-top: 3px;}
+.line-present > .right{width: 291px; height: 32px; float: right; font-size: 11px; color: #666; line-height: 34px; text-transform: uppercase;}
+.line-present > .right > span{float: left; margin: 0px 0px 0px 20px;}
+.line-present > .right > span + span{float: right; position: relative; left: -103px;}
+
+.line-total{height: 32px; width: 100%; background: #00b6ad; float: left; margin-top: 3px;}
+.line-total > .right{float: right; width: 291px; height: 32px;}
+.line-total > .right > span{float: left; font-size: 13px; color: #ffffff; text-transform: uppercase; margin: 10px 0px 0px 20px;}
+.line-total > .right > span + span{float: left; width: 160px; font-size: 14px; height: 32px; background: #008d8b; line-height: 34px; text-indent: 18px; margin: 0px 0px 0px 0px; position: absolute; right: 0px;}
+
+.wrap-buttons{width: 1000px; height: 53px; float: left;}
+.wrap-buttons > .clean-button{width: 158px; height: 51px; background: #ebeef4; color: #666666; font-size: 12px; text-transform: uppercase; border: solid 1px #e0e5f0; float: left; margin: 8px 0px 0px 0px;}
+.wrap-buttons > .continue-button{width: 210px; height: 51px; background: #ebeef4; color: #666666; font-size: 12px; text-transform: uppercase; border: solid 1px #e0e5f0; float: left; margin: 8px 0px 0px 8px;}
+.wrap-buttons > .end-button{width: 247px; height: 51px; background: url('../img/carrinho/finalizar-btn.png'); color: #666666; font-size: 12px; text-transform: uppercase; float: right; margin: 8px 0px 0px 0px;}
